@@ -178,6 +178,22 @@
         "name": "NewSprite2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Grown.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grown",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -488,7 +504,13 @@
           "name": "TopDown_Character",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Carrots",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -636,6 +658,16 @@
               "name": "State",
               "type": "string",
               "value": "Empty"
+            },
+            {
+              "name": "PlantedPlant",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "name": "PlantedPlantID",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -667,36 +699,16 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 16
+                            "x": 17,
+                            "y": 14.5
                           },
                           {
-                            "x": 4,
-                            "y": 4
+                            "x": 17,
+                            "y": 14.5
                           },
                           {
-                            "x": 16,
-                            "y": 0
-                          },
-                          {
-                            "x": 28,
-                            "y": 4
-                          },
-                          {
-                            "x": 32,
-                            "y": 16
-                          },
-                          {
-                            "x": 28,
-                            "y": 28
-                          },
-                          {
-                            "x": 16,
-                            "y": 32
-                          },
-                          {
-                            "x": 4,
-                            "y": 28
+                            "x": 17,
+                            "y": 14.5
                           }
                         ]
                       ]
@@ -896,13 +908,18 @@
               "name": "GrowthTimer",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "ID",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "Planted",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -949,6 +966,116 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Grown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grown",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 29,
+                            "y": 23
+                          },
+                          {
+                            "x": 36,
+                            "y": 23
+                          },
+                          {
+                            "x": 36,
+                            "y": 37
+                          },
+                          {
+                            "x": 29,
+                            "y": 37
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "carrot",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 36,
+                            "y": 26
+                          },
+                          {
+                            "x": 36,
+                            "y": 31
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -958,6 +1085,9 @@
         "children": [
           {
             "objectName": "TopDown_Character"
+          },
+          {
+            "objectName": "carrot"
           },
           {
             "objectName": "NewSprite"
@@ -1048,91 +1178,83 @@
                 "",
                 "\"e\""
               ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "TopDown_Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Empty\""
-              ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Planted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "TempPlant",
-                "Plot.X()",
-                "Plot.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "TempPlant",
-                "\"GrowthTimer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "GrowthTimer",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Grown\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TopDown_Character",
+                    "Plot",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "TempPlant",
+                    "Plot.X()",
+                    "Plot.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Planted\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "ID",
+                    "=",
+                    "Random(1000000)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "PlantedPlantID",
+                    "=",
+                    "TempPlant.Variable(ID)"
+                  ]
+                }
               ]
             }
           ]
@@ -1146,41 +1268,224 @@
               },
               "parameters": [
                 "",
-                "\"e\""
+                "\"h\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TopDown_Character",
+                    "Plot",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AjoutObjConcern"
+                  },
+                  "parameters": [
+                    "",
+                    "TempPlant"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "TempPlant.Variable(ID)",
+                        "=",
+                        "Plot.Variable(PlantedPlantID)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "TempPlant",
+                        "TopDown_Character.X()",
+                        "TopDown_Character.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TempPlant",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TopDown_Character",
+                        "Carrots",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "carrot",
+                        "TopDown_Character.X()",
+                        "TopDown_Character.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Plot",
+                        "State",
+                        "=",
+                        "\"Empty\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "TempPlant",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "carrot",
+                            "0",
+                            "-50",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "carrot",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "TempPlant",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "TempPlant",
+                "GrowthTimer",
+                "+",
+                "TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "TempPlant",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "TempPlant",
+                "GrowthTimer",
+                ">=",
+                "5"
               ]
             },
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Sprite"
               },
               "parameters": [
-                "TopDown_Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Grown\""
+                "TempPlant",
+                "!=",
+                "1"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "TempPlant",
-                ""
+                "Animation",
+                "=",
+                "\"Grown\""
               ]
             },
             {
@@ -1191,7 +1496,7 @@
                 "Plot",
                 "State",
                 "=",
-                "\"Empty\""
+                "\"Grown\""
               ]
             }
           ]
