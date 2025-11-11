@@ -178,7 +178,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 1.1726229638177712,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
