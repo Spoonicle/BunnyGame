@@ -225,12 +225,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.1726229638177712,
+        "zoomFactor": 1.804671431887406,
         "windowMask": false,
         "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "PlantCounter",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -1212,6 +1218,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "PlantCounter",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Create"
                   },
                   "parameters": [
@@ -1231,28 +1247,6 @@
                     "State",
                     "=",
                     "\"Planted\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "ID",
-                    "=",
-                    "Random(1000000)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "PlantedPlantID",
-                    "=",
-                    "TempPlant.Variable(ID)"
                   ]
                 }
               ]
@@ -1283,7 +1277,7 @@
                   },
                   "parameters": [
                     "TopDown_Character",
-                    "Plot",
+                    "TempPlant",
                     "",
                     "",
                     ""
@@ -1301,32 +1295,11 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AjoutObjConcern"
-                  },
-                  "parameters": [
-                    "",
-                    "TempPlant"
-                  ]
-                }
-              ],
+              "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::CompareNumbers"
-                      },
-                      "parameters": [
-                        "TempPlant.Variable(ID)",
-                        "=",
-                        "Plot.Variable(PlantedPlantID)"
-                      ]
-                    }
-                  ],
+                  "conditions": [],
                   "actions": [
                     {
                       "type": {
@@ -1387,15 +1360,6 @@
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "TempPlant",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "AddForceXY"
