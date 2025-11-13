@@ -194,6 +194,90 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Bull_Attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Attack.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/9436ce55d955f5deb78b84245e469f7e702aab530b7aee0362a7c05e0d2eab72_Bull_Attack.png",
+          "name": "Bull_Attack.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Dead.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/83104eb66e4b341ec4f8651407f4d6e5845b70b7cd998480d617fdb9ab0f4d90_Bull_Dead.png",
+          "name": "Bull_Dead.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Hit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Hit.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/ee5f473ca2cc0ff1c3befab7990eddee5993d8533e0a9efb1b85ea39a6a78656_Bull_Hit.png",
+          "name": "Bull_Hit.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/d727b54458e4ef6534c49701448754477adeaa40d958c2709342fbdb8f725f9f_Bull_Idle.png",
+          "name": "Bull_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Walk_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/ea6735249bec790db8be11b59bf94b1c3f12d05443b38e59599a2af76d52ad82_Bull_Walk_1.png",
+          "name": "Bull_Walk_1.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Walk_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/d727b54458e4ef6534c49701448754477adeaa40d958c2709342fbdb8f725f9f_Bull_Walk_2.png",
+          "name": "Bull_Walk_2.png"
+        }
+      },
+      {
+        "file": "assets/Bull_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bull_Walk_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Animal/9e3c7ad5e498536b08195c6b9418b72a9fce3c80c99d6fa8973c01118b2ac830_Bull_Walk_3.png",
+          "name": "Bull_Walk_3.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -225,7 +309,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.804671431887406,
+        "zoomFactor": 1.0615714305220045,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -501,6 +585,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bull",
+          "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
+          "width": 0,
+          "x": 543,
+          "y": 332,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -572,9 +672,9 @@
               "IsCalledManually": false
             },
             {
-              "allowDiagonals": false,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "allowDiagonals": false,
               "acceleration": 450,
               "angularMaxSpeed": 150,
               "deceleration": 900,
@@ -1084,6 +1184,422 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "5d4869a7e0037cd1702a05c32fbe230ab584a2fff768e96361938d3017a2d2e8",
+          "name": "Bull",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "NPCWalk",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1667,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Walk_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Walk_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Walk_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Hit.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Attack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bull_Dead.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 6
+                          },
+                          {
+                            "x": 53,
+                            "y": 58
+                          },
+                          {
+                            "x": 10,
+                            "y": 58
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "BullText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[E] Feed me corn!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[E] Feed me corn!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Thankyou",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Thank you!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Thank you!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1117,6 +1633,15 @@
                 "objectName": "Joystick"
               }
             ]
+          },
+          {
+            "objectName": "Bull"
+          },
+          {
+            "objectName": "BullText"
+          },
+          {
+            "objectName": "Thankyou"
           }
         ]
       },
@@ -1247,6 +1772,52 @@
                     "State",
                     "=",
                     "\"Planted\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TopDown_Character",
+                    "Bull",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Thankyou",
+                    "Bull.X()",
+                    "Bull.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BullText",
+                    ""
                   ]
                 }
               ]
@@ -1464,6 +2035,72 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Bull",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BullText",
+                "Bull.X()",
+                "Bull.Y()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "TopDown_Character",
+                "Bull",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BullText",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1541,6 +2178,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "TopDownMovement",
@@ -11557,6 +12198,937 @@
               "label": "Downward maximum speed on the floor",
               "group": "Maximum speed",
               "name": "FloorDownwardSpeedMax"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "VegeTato, arthuro555",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "Repeat every X seconds",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXJlcGVhdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xNywxN0g3VjE0TDMsMThMNywyMlYxOUgxOVYxM0gxN003LDdIMTdWMTBMMjEsNkwxNywyVjVINVYxMUg3VjdaIiAvPjwvc3ZnPg==",
+      "name": "RepeatEveryXSeconds",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/repeat.svg",
+      "shortDescription": "Trigger an event every X seconds.",
+      "version": "0.2.1",
+      "description": "Convenience conditions, actions and behaviors for timers to trigger a condition every X seconds.",
+      "origin": {
+        "identifier": "RepeatEveryXSeconds",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "repeat",
+        "timer",
+        "time"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1",
+        "IRIhkkTTl2UHhfjrLTTH5GYwkYu1",
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Triggers every X seconds.",
+          "fullName": "Repeat with a scene timer",
+          "functionType": "Condition",
+          "name": "Repeat",
+          "sentence": "Repeat every _PARAM2_ seconds using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    ">=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName",
+                    ">=",
+                    "LoopDuration"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the number of times the timer has repeated.",
+          "fullName": "Repetition number of a scene timer",
+          "functionType": "ExpressionAndCondition",
+          "name": "Repetition",
+          "sentence": "Repetition number of timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Triggers every X seconds X amount of times.",
+          "fullName": "Repeat with a scene timer X times",
+          "functionType": "Condition",
+          "name": "RepeatXTimes",
+          "sentence": "Repeat every _PARAM2_ seconds _PARAM3_ times using timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "MaxLoop",
+                        "<",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::Repetition"
+                      },
+                      "parameters": [
+                        "",
+                        "<",
+                        "MaxLoop",
+                        "TimerName",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RepeatEveryXSeconds::Repeat"
+                  },
+                  "parameters": [
+                    "",
+                    "TimerName",
+                    "LoopDuration",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            },
+            {
+              "description": "Duration in seconds between each repetition",
+              "name": "LoopDuration",
+              "type": "expression"
+            },
+            {
+              "description": "The limit of loops",
+              "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+              "name": "MaxLoop",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Reset repetition count of a scene timer.",
+          "fullName": "Reset repetition count of a scene timer",
+          "functionType": "Action",
+          "name": "DeleteTimer",
+          "sentence": "Reset repetition count for timer _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "player",
+                    "TimerName"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VariableRemoveChild"
+                  },
+                  "parameters": [
+                    "__RepeatEveryXSeconds.Repetitions",
+                    "TimerName"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Timer name used to loop",
+              "name": "TimerName",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Allows to repeat an object timer every X seconds.",
+          "fullName": "Repeat every X seconds",
+          "name": "RepeatTimer",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds.",
+              "fullName": "Repeat with an object timer",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "Repeat2",
+              "sentence": "Repeat every _PARAM3_ seconds using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "TODO: It should keep the overflowing time to be more precise (it would need JavaScript)"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        ">=",
+                        "LoopDuration"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions[TimerName]",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the number of times the timer has repeated.",
+              "fullName": "Repetition number of an object timer",
+              "functionType": "ExpressionAndCondition",
+              "group": "Timers",
+              "name": "Repetition",
+              "sentence": "Repetition number of timer _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Variable(__RepeatEveryXSeconds.Repetitions[TimerName])"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds X amount of times.",
+              "fullName": "Repeat with an object timer X times",
+              "functionType": "Condition",
+              "group": "Timers",
+              "name": "RepeatXTimes",
+              "sentence": "Repeat every _PARAM3_ seconds _PARAM4_ times using timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareNumbers"
+                          },
+                          "parameters": [
+                            "MaxLoop",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RepeatEveryXSeconds::RepeatTimer::Repetition"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "MaxLoop",
+                            "TimerName",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RepeatEveryXSeconds::RepeatTimer::Repeat2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "TimerName",
+                        "LoopDuration",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                },
+                {
+                  "description": "Duration in seconds between each repetition",
+                  "name": "LoopDuration",
+                  "type": "expression"
+                },
+                {
+                  "description": "The limit of loops",
+                  "longDescription": "Maximum nuber of repetition (-1 to repeat forever).",
+                  "name": "MaxLoop",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Reset repetition count of an object timer.",
+              "fullName": "Reset repetition count of an object timer",
+              "functionType": "Action",
+              "group": "Timers",
+              "name": "DeleteTimer",
+              "sentence": "Reset repetition count for timer _PARAM2_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableRemoveChild"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__RepeatEveryXSeconds.Repetitions",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Timer name used to loop",
+                  "name": "TimerName",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Triggers every X seconds, where X is defined in the behavior properties.",
+              "fullName": "Repeat every X seconds (deprecated)",
+              "functionType": "Condition",
+              "name": "Repeat",
+              "private": true,
+              "sentence": "Recurring timer _PARAM1_ of _PARAM0_ has triggered",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName",
+                        "TimerLength"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Limit",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Counter",
+                            "<",
+                            "Limit"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Counter",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Pauses a recurring timer.",
+              "fullName": "Pause a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Pause",
+              "private": true,
+              "sentence": "Pause recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Resumes a paused recurring timer.",
+              "fullName": "Resume a recurring timer (deprecated)",
+              "functionType": "Action",
+              "name": "Resume",
+              "private": true,
+              "sentence": "Resume recurring timer _PARAM1_ of _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "UnPauseObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TimerName"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Allows to trigger the recurring timer X times again.",
+              "fullName": "Reset the limit (deprecated)",
+              "functionType": "Action",
+              "name": "ResetLimit",
+              "private": true,
+              "sentence": "Allow to trigger the recurring timer _PARAM1_ of _PARAM0_ X times again",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Counter",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "RepeatEveryXSeconds::RepeatTimer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "MyTimer",
+              "type": "String",
+              "label": "The name of the timer to repeat",
+              "deprecated": true,
+              "name": "TimerName"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "The time between each trigger (in seconds)",
+              "deprecated": true,
+              "name": "TimerLength"
+            },
+            {
+              "value": "-1",
+              "type": "Number",
+              "label": "How many times should the timer trigger? -1 for forever.",
+              "deprecated": true,
+              "name": "Limit"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "An internal counter",
+              "hidden": true,
+              "name": "Counter"
             }
           ],
           "sharedPropertyDescriptors": []
