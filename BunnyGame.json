@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -2326,6 +2326,214 @@
         "name": "assets/Sprout Lands - Sprites - Basic pack/OtherSprites/Seeds2",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Corn14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Corn14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grown2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grown2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grown3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grown3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grown4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grown4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grown5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grown5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grow0.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grow0",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grow02.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grow02",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grow03.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grow03",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Grow04.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Grow04",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2357,7 +2565,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7619362677197671,
+        "zoomFactor": 1.8046714318874149,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -2479,23 +2687,6 @@
           "x": 768,
           "y": 512,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0.5,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Wall",
-          "persistentUuid": "22bf0d32-275e-4e74-b120-bfa34be62474",
-          "width": 64,
-          "x": 43,
-          "y": 366,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2670,8 +2861,8 @@
           "name": "InventoryWithSlots",
           "persistentUuid": "819b8318-0b6d-4db5-9d03-f9fbdabdb66d",
           "width": 0,
-          "x": 891,
-          "y": 166,
+          "x": 908,
+          "y": 163,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2686,8 +2877,8 @@
           "name": "WateringCan",
           "persistentUuid": "40c6aaf1-adf3-4e73-955a-238207316200",
           "width": 0,
-          "x": 908,
-          "y": 183,
+          "x": 925,
+          "y": 180,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2702,8 +2893,8 @@
           "name": "PickAxe",
           "persistentUuid": "21b8f019-93d5-4ff3-b8cd-9ac51c5f05fb",
           "width": 0,
-          "x": 932,
-          "y": 184,
+          "x": 949,
+          "y": 181,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2718,8 +2909,8 @@
           "name": "Axe",
           "persistentUuid": "0b7a4fa3-67b1-4a28-b343-54bd82406b4d",
           "width": 0,
-          "x": 953,
-          "y": 182,
+          "x": 970,
+          "y": 179,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -2734,25 +2925,9 @@
           "name": "CornSeed",
           "persistentUuid": "64199c3c-a63d-4d7d-8786-2748261efa85",
           "width": 0,
-          "x": 908,
-          "y": 207,
+          "x": 925,
+          "y": 204,
           "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "NewSprite2",
-          "persistentUuid": "de8d4fe2-aa7d-4946-9384-a83b82e91adc",
-          "width": 0,
-          "x": 931,
-          "y": 205,
-          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2767,8 +2942,8 @@
           "name": "CornSeedText",
           "persistentUuid": "4d6b9156-6981-41d9-88ef-7052dba565e4",
           "width": 8,
-          "x": 910,
-          "y": 208,
+          "x": 927,
+          "y": 205,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2784,8 +2959,8 @@
           "name": "CornText",
           "persistentUuid": "54ab046a-2364-498b-b4f7-cc32154f7cfe",
           "width": 4,
-          "x": 934,
-          "y": 208,
+          "x": 951,
+          "y": 205,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2916,8 +3091,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 16,
-                        "y": 16
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -10693,6 +10868,191 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Corn2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "GrowthTimer",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "NeedsWater",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grow0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grow0",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grow02",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grow03",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grow04",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 7
+                          },
+                          {
+                            "x": 14,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10729,6 +11089,9 @@
           },
           {
             "objectName": "Character"
+          },
+          {
+            "objectName": "Corn2"
           },
           {
             "objectName": "carrot"
@@ -10796,6 +11159,7 @@
       },
       "events": [
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10843,24 +11207,6 @@
                 "Character",
                 "Plot",
                 ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Plot",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "PlotID",
-                "=",
-                "Random(100000)"
               ]
             }
           ]
@@ -10917,6 +11263,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "CharacterMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11078,25 +11425,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "Character",
-                    "Plot",
                     "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Empty\""
+                    "\"e\""
                   ]
                 }
               ],
@@ -11107,15 +11440,38 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "Character",
+                        "Plot",
                         "",
-                        "\"e\""
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Plot",
+                        "State",
+                        "=",
+                        "\"Empty\""
                       ]
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "PlantText",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
@@ -11143,7 +11499,7 @@
                       },
                       "parameters": [
                         "",
-                        "TempPlant",
+                        "Corn2",
                         "Plot.X()",
                         "Plot.Y()\n",
                         ""
@@ -11162,54 +11518,49 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
-                        "TempPlant",
-                        "ID",
-                        "=",
-                        "Plot.PlotID"
+                        "Corn2",
+                        "NeedsWater",
+                        "True",
+                        "\"Planted\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Water",
+                        "Corn2.X()+1",
+                        "Corn2.Y()+1",
+                        ""
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Bull",
-                    "",
-                    "",
-                    ""
-                  ]
                 },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
+                        "Character",
+                        "Bull",
                         "",
-                        "\"e\""
+                        "",
+                        ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -11232,6 +11583,34 @@
                         "Bull.X()",
                         "Bull.Y()",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Corn2",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Corn2",
+                        "NeedsWater",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                      },
+                      "parameters": [
+                        "Corn2",
+                        "Animation"
                       ]
                     }
                   ]
@@ -11259,7 +11638,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "TempPlant",
+                    "Corn2",
                     "",
                     "",
                     ""
@@ -11296,22 +11675,11 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                       },
                       "parameters": [
-                        "Water",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "TempPlant",
-                        "NeedsWater",
-                        "False",
-                        ""
+                        "Corn2",
+                        "Animation"
                       ]
                     },
                     {
@@ -11323,6 +11691,35 @@
                         "Animation",
                         "=",
                         "9"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Water",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "WaterText",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Corn2",
+                        "NeedsWater",
+                        "False",
+                        ""
                       ]
                     }
                   ]
@@ -11365,7 +11762,7 @@
                       },
                       "parameters": [
                         "Character",
-                        "TempPlant",
+                        "Corn2",
                         "",
                         "",
                         ""
@@ -11383,7 +11780,90 @@
                       ]
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "HarvestText",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PickNearest"
+                      },
+                      "parameters": [
+                        "Corn2",
+                        "Character.X()",
+                        "Character.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Corn2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Corn",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Corn",
+                        "Character.X()",
+                        "Character.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Plot",
+                        "State",
+                        "=",
+                        "\"Empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Inventory.Materials.Corn",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Inventory.Materials.CornSeed",
+                        "+",
+                        "3"
+                      ]
+                    }
+                  ],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -11391,12 +11871,21 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "PickNearest"
+                            "value": "AddForceXY"
                           },
                           "parameters": [
-                            "TempPlant",
-                            "Character.X()",
-                            "Character.Y()"
+                            "Corn",
+                            "0",
+                            "-50",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
                           ]
                         },
                         {
@@ -11404,228 +11893,12 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "TempPlant",
+                            "Corn",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Character",
-                            "Carrots",
-                            "+",
-                            "1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "carrot",
-                            "Character.X()",
-                            "Character.Y()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Plot",
-                            "State",
-                            "=",
-                            "\"Empty\""
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "AddForceXY"
-                              },
-                              "parameters": [
-                                "carrot",
-                                "0",
-                                "-50",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "1"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "carrot",
-                                ""
-                              ]
-                            }
                           ]
                         }
                       ]
                     }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Plant Timers",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "TempPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "NeedsWater",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "GrowthTimer",
-                    "+",
-                    "TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "TempPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "GrowthTimer",
-                    ">=",
-                    "5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "NeedsWater",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Water",
-                    "TempPlant.X()+1",
-                    "TempPlant.Y()+1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "NeedsWater",
-                    "True",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "TempPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "GrowthTimer",
-                    ">",
-                    "10"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sprite"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "!=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "Animation",
-                    "=",
-                    "\"Grown\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
                   ]
                 }
               ]
@@ -11736,7 +12009,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "TempPlant",
+                    "Corn2",
                     "",
                     "",
                     ""
@@ -11756,13 +12029,11 @@
                 },
                 {
                   "type": {
-                    "value": "StringObjectVariable"
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                   },
                   "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
+                    "Corn2",
+                    "Animation"
                   ]
                 },
                 {
@@ -11861,6 +12132,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Inventory System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12020,18 +12292,20 @@
                   ]
                 }
               ]
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Harvest Actions",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": " Pick up tools",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -12041,30 +12315,10 @@
                   },
                   "parameters": [
                     "Character",
-                    "TempPlant",
+                    "WateringCan2",
                     "",
                     "",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"e\""
                   ]
                 },
                 {
@@ -12080,39 +12334,133 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "TempPlant",
+                    "WateringCan2",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "Inventory.Materials.Corn",
-                    "+",
-                    "1"
+                    "Inventory.Tools.WateringCan",
+                    "True",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "Montre"
                   },
                   "parameters": [
-                    "Inventory.Materials.CornSeed",
-                    "+",
-                    "3"
+                    "WateringCan",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "PickAxe2",
+                    "",
+                    "",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "SetStringObjectVariable"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Empty\""
+                    "PickAxe2",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Inventory.Tools.PickAxe",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "PickAxe",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Axe2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Axe2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Inventory.Tools.Axe",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Axe",
+                    ""
                   ]
                 }
               ]
@@ -12121,176 +12469,39 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": " Pick up tools",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Corn2",
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
               },
               "parameters": [
-                "Character",
-                "WateringCan2",
-                "",
-                "",
-                ""
+                "Corn2",
+                "Animation"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "PickNearest"
               },
               "parameters": [
-                "WateringCan2",
-                ""
+                "Plot",
+                "Corn2.X()",
+                "Corn2.Y()"
               ]
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "SetStringObjectVariable"
               },
               "parameters": [
-                "Inventory.Tools.WateringCan",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "WateringCan",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "PickAxe2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "PickAxe2",
-                "="
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Inventory.Tools.PickAxe",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "PickAxe",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Axe2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Axe2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Inventory.Tools.Axe",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Axe",
-                ""
+                "Plot",
+                "State",
+                "=",
+                "\"Grown\""
               ]
             }
           ]
