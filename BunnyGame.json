@@ -10357,6 +10357,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "R is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10508,381 +10509,374 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "TempPlant",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Plant Timers",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "NeedsWater",
-                "False",
-                ""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "TempPlant",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "NeedsWater",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "GrowthTimer",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "TempPlant",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "GrowthTimer",
+                    ">=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "!=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Water",
+                    "TempPlant.X()+1",
+                    "TempPlant.Y()+1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "NeedsWater",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "TempPlant",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "GrowthTimer",
+                    ">",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "!=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "TempPlant",
+                    "Animation",
+                    "=",
+                    "\"Grown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "GrowthTimer",
-                "+",
-                "TimeDelta()"
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "TempPlant",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Create Text On Screen",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "GrowthTimer",
-                ">=",
-                "5"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Plot",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PlantText",
+                    "Character.X()",
+                    "Character.Y()",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "Sprite"
-              },
-              "parameters": [
-                "TempPlant",
-                "!=",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Water",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "WaterText",
+                    "Character.X()",
+                    "Character.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "TempPlant",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Plot",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "HarvestText",
+                    "Character.X()",
+                    "Character.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Bull",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BullText",
+                    "Bull.X()",
+                    "Bull.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Bull",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BullText",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Water",
-                "TempPlant.X()+1",
-                "TempPlant.Y()+1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "NeedsWater",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "GrowthTimer",
-                ">",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "Sprite"
-              },
-              "parameters": [
-                "TempPlant",
-                "!=",
-                "1"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "TempPlant",
-                "Animation",
-                "=",
-                "\"Grown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Grown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Empty\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "PlantText",
-                "Character.X()",
-                "Character.Y()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "TempPlant",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "TempPlant",
-                "NeedsWater",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Planted\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "WaterText",
-                "Character.X()",
-                "Character.Y()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "TempPlant",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "StringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Grown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "HarvestText",
-                "Character.X()",
-                "Character.Y()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Bull",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "BullText",
-                "Bull.X()",
-                "Bull.Y()",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Bull",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "BullText",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
