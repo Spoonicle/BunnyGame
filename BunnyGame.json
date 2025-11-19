@@ -10104,11 +10104,25 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Character",
+                    "Plot",
                     "",
-                    "\"e\""
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Empty\""
                   ]
                 }
               ],
@@ -10119,25 +10133,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "Character",
-                        "Plot",
                         "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Plot",
-                        "State",
-                        "=",
-                        "\"Empty\""
+                        "\"e\""
                       ]
                     }
                   ],
@@ -10198,27 +10198,44 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Bull",
+                    "",
+                    "",
+                    ""
+                  ]
                 },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "Character",
-                        "Bull",
                         "",
-                        "",
-                        ""
+                        "\"e\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -10255,6 +10272,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "W is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10264,11 +10282,26 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
+                    "Character",
+                    "TempPlant",
                     "",
-                    "\"w\""
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Water",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
@@ -10279,37 +10312,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "Character",
-                        "TempPlant",
                         "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Character",
-                        "Water",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "TempPlant",
-                        "NeedsWater",
-                        "True",
-                        ""
+                        "\"w\""
                       ]
                     }
                   ],
@@ -10325,17 +10332,6 @@
                     },
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                      },
-                      "parameters": [
-                        "Character",
-                        "Animation",
-                        "=",
-                        "9"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
@@ -10343,6 +10339,17 @@
                         "NeedsWater",
                         "False",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Animation",
+                        "=",
+                        "9"
                       ]
                     }
                   ]
@@ -10565,12 +10572,13 @@
                 },
                 {
                   "type": {
-                    "value": "Sprite"
+                    "value": "BooleanObjectVariable"
                   },
                   "parameters": [
                     "TempPlant",
-                    "!=",
-                    "1"
+                    "NeedsWater",
+                    "False",
+                    ""
                   ]
                 }
               ],
