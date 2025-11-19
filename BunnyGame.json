@@ -2540,7 +2540,7 @@
               "value": ""
             },
             {
-              "name": "PlantedPlantID",
+              "name": "PlotID",
               "type": "number",
               "value": 0
             }
@@ -2566,10 +2566,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 16
                       },
                       "customCollisionMask": [
                         [
@@ -3406,7 +3406,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Character",
           "type": "Sprite",
@@ -9712,6 +9712,49 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HarvestText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[R] Harvest Vegetable",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 12,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[R] Harvest Vegetable",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 12,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9765,6 +9808,9 @@
             "objectName": "PlantText"
           },
           {
+            "objectName": "HarvestText"
+          },
+          {
             "objectName": "WaterText"
           },
           {
@@ -9800,10 +9846,102 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Character",
+                "Wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Character",
+                "Plot",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Plot",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Plot",
+                "PlotID",
+                "=",
+                "Random(100000)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Plot",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "PlantText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "WaterText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HarvestText",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "CharacterMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9952,245 +10090,25 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Character",
-                "Wall",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Character",
-                "Plot",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "Plot",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "PlantText",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "WaterText",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"e\""
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "E is Pressed",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Plot",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Empty\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Animation",
-                    "=",
-                    "6"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PlantCounter",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
                     "",
-                    "TempPlant",
-                    "Plot.X()",
-                    "Plot.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Planted\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Bull",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Thankyou",
-                    "Bull.X()",
-                    "Bull.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BullText",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"h\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "TempPlant",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
+                    "\"e\""
                   ]
                 }
               ],
@@ -10198,34 +10116,49 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
+                  "conditions": [
                     {
                       "type": {
-                        "value": "PickNearest"
+                        "value": "CollisionNP"
                       },
                       "parameters": [
-                        "TempPlant",
-                        "Character.X()",
-                        "Character.Y()"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "TempPlant",
+                        "Character",
+                        "Plot",
+                        "",
+                        "",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetNumberObjectVariable"
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Plot",
+                        "State",
+                        "=",
+                        "\"Empty\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                       },
                       "parameters": [
                         "Character",
-                        "Carrots",
+                        "Animation",
+                        "=",
+                        "6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "PlantCounter",
                         "+",
                         "1"
                       ]
@@ -10236,9 +10169,9 @@
                       },
                       "parameters": [
                         "",
-                        "carrot",
-                        "Character.X()",
-                        "Character.Y()",
+                        "TempPlant",
+                        "Plot.X()",
+                        "Plot.Y()\n",
                         ""
                       ]
                     },
@@ -10250,10 +10183,227 @@
                         "Plot",
                         "State",
                         "=",
-                        "\"Empty\""
+                        "\"Planted\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "TempPlant",
+                        "ID",
+                        "=",
+                        "Plot.PlotID"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Bull",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BullText",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Thankyou",
+                        "Bull.X()",
+                        "Bull.Y()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "W is Pressed",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "TempPlant",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Water",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "TempPlant",
+                        "NeedsWater",
+                        "True",
+                        ""
                       ]
                     }
                   ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Water",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Animation",
+                        "=",
+                        "9"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "TempPlant",
+                        "NeedsWater",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "R is Pressed",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"r\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "TempPlant",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Plot",
+                        "State",
+                        "=",
+                        "\"Grown\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -10261,21 +10411,12 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "AddForceXY"
+                            "value": "PickNearest"
                           },
                           "parameters": [
-                            "carrot",
-                            "0",
-                            "-50",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "1"
+                            "TempPlant",
+                            "Character.X()",
+                            "Character.Y()"
                           ]
                         },
                         {
@@ -10283,8 +10424,78 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "carrot",
+                            "TempPlant",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Character",
+                            "Carrots",
+                            "+",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "carrot",
+                            "Character.X()",
+                            "Character.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Plot",
+                            "State",
+                            "=",
+                            "\"Empty\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AddForceXY"
+                              },
+                              "parameters": [
+                                "carrot",
+                                "0",
+                                "-50",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "carrot",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -10293,7 +10504,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::ForEach",
@@ -10336,7 +10548,7 @@
               "parameters": [
                 "TempPlant",
                 "GrowthTimer",
-                "=",
+                ">=",
                 "5"
               ]
             },
@@ -10359,8 +10571,8 @@
               "parameters": [
                 "",
                 "Water",
-                "TempPlant.X()",
-                "TempPlant.Y()",
+                "TempPlant.X()+1",
+                "TempPlant.Y()+1",
                 ""
               ]
             },
@@ -10484,6 +10696,18 @@
               },
               "parameters": [
                 "Character",
+                "Plot",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
                 "TempPlant",
                 "",
                 "",
@@ -10499,6 +10723,17 @@
                 "NeedsWater",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Plot",
+                "State",
+                "=",
+                "\"Planted\""
               ]
             },
             {
@@ -10521,53 +10756,64 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"w\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Animation",
-                    "=",
-                    "9"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Water",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "TempPlant",
-                    "NeedsWater",
-                    "False",
-                    ""
-                  ]
-                }
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "TempPlant",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Plot",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Plot",
+                "State",
+                "=",
+                "\"Grown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "HarvestText",
+                "Character.X()",
+                "Character.Y()",
+                ""
               ]
             }
           ]
