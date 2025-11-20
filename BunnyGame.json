@@ -2576,6 +2576,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Jump/c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
           "name": "gdevelop-asset-store"
         }
+        "file": "assets/Bowl.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bowl.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Dishes/f1ff1f9f3bdecbeeb3a166a09064e11d6436eb93a69d4d205ecd0eebb6fe2928_Bowl.png",
+          "name": "Bowl.png"
+        }
+      },
+      {
+        "file": "assets/NPC_Start.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NPC_Start",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2613,7 +2631,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8046714318874149,
+        "zoomFactor": 0.84164281253732,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -2876,8 +2894,8 @@
           "name": "Bull",
           "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
           "width": 0,
-          "x": 442,
-          "y": 387,
+          "x": 185,
+          "y": 395,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3061,6 +3079,54 @@
           "x": 627,
           "y": 361,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NpcStart",
+          "persistentUuid": "d2413526-be47-4b2b-a00b-80d2b82e687f",
+          "width": 0,
+          "x": 169,
+          "y": 410,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NpcPause",
+          "persistentUuid": "c61f6b42-f4df-4be0-866e-848fb342d440",
+          "width": 0,
+          "x": 457,
+          "y": 409,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NpcEnd",
+          "persistentUuid": "b117ae43-40bf-40d7-b3a4-e7797c5fcdaf",
+          "width": 0,
+          "x": 1032,
+          "y": 433,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3544,7 +3610,24 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 50,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -4002,13 +4085,13 @@
           "effects": [],
           "behaviors": [
             {
+              "maxSpeed": 100,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": false,
               "acceleration": 450,
               "angularMaxSpeed": 150,
               "deceleration": 900,
-              "maxSpeed": 125,
               "rotateObject": false,
               "angleOffset": 0,
               "customIsometryAngle": 30,
@@ -4397,42 +4480,6 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stand13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "Stand14",
                       "points": [],
                       "originPoint": {
@@ -4754,6 +4801,42 @@
                           }
                         ]
                       ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stand13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -4764,7 +4847,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5137,7 +5220,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5510,7 +5593,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5883,7 +5966,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -11101,6 +11184,114 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "952ddf7dd9cea6dbcc70c30e371fe759539d0f6af0dfca6388ccb5c92f90c0f8",
+          "name": "Bowl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bowl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 1,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcStart",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcPause",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcEnd",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -11189,6 +11380,15 @@
             "objectName": "Bull"
           },
           {
+            "objectName": "NpcStart"
+          },
+          {
+            "objectName": "NpcPause"
+          },
+          {
+            "objectName": "NpcEnd"
+          },
+          {
             "objectName": "BullText"
           },
           {
@@ -11202,6 +11402,9 @@
           },
           {
             "objectName": "Thankyou"
+          },
+          {
+            "objectName": "Bowl"
           }
         ]
       },
@@ -12195,6 +12398,15 @@
                     "BullText",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    ""
+                  ]
                 }
               ]
             }
@@ -12374,7 +12586,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": " Pick up tools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12795,6 +13006,153 @@
               ]
             }
           ]
+          "name": "NPC Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"Enter\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "NpcPause.X()",
+                    "NpcPause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "NpcPause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"Enter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "NpcEnd.X()",
+                    "NpcEnd.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -12913,6 +13271,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
