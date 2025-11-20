@@ -2534,6 +2534,48 @@
         "name": "Grow04",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Hit 10.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Jump_Light_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Water/Jump/ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Jump_Land_05.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Jump/c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -10106,7 +10148,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "[E] Plant Seed",
+          "string": "Use PickAxe to  Plant Seed",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10129,7 +10171,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "[E] Plant Seed",
+            "text": "Use PickAxe to  Plant Seed",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -10210,7 +10252,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "[W] Water Plant",
+          "string": "Use Watering Can Water Plant",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10233,7 +10275,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "[W] Water Plant",
+            "text": "Use Watering Can Water Plant",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -10253,7 +10295,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "[R] Harvest Vegetable",
+          "string": "Use Axe to Harvest Vegetable",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10276,7 +10318,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "[R] Harvest Vegetable",
+            "text": "Use Axe to Harvest Vegetable",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -11544,6 +11586,18 @@
                         "Corn2.Y()+1",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
+                        "",
+                        "100",
+                        "1"
+                      ]
                     }
                   ]
                 },
@@ -11708,6 +11762,18 @@
                     },
                     {
                       "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
@@ -11857,6 +11923,18 @@
                         "Inventory.Materials.CornSeed",
                         "+",
                         "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
+                        "",
+                        "100",
+                        "1"
                       ]
                     }
                   ],
