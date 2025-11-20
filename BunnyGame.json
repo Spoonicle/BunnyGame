@@ -2543,7 +2543,13 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "CurrentTool",
+      "type": "string",
+      "value": "None"
+    }
+  ],
   "layouts": [
     {
       "b": 255,
@@ -2976,8 +2982,8 @@
           "name": "WateringCan2",
           "persistentUuid": "8967a33e-cf1e-40c0-8b71-403f61a06f88",
           "width": 29,
-          "x": 647,
-          "y": 288,
+          "x": 589,
+          "y": 401,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2993,8 +2999,8 @@
           "name": "PickAxe2",
           "persistentUuid": "66ee1f0a-9a93-40b1-8a3d-4209ae1120a0",
           "width": 24,
-          "x": 812,
-          "y": 282,
+          "x": 664,
+          "y": 364,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3010,8 +3016,8 @@
           "name": "Axe2",
           "persistentUuid": "f1cfda8e-45c6-448d-ba05-effef5929c85",
           "width": 23,
-          "x": 684,
-          "y": 423,
+          "x": 627,
+          "y": 361,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -11263,7 +11269,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "CharacterMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11416,7 +11421,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "E is Pressed",
+          "name": "Pickaxe is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11425,11 +11430,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "StringVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"e\""
+                    "CurrentTool",
+                    "=",
+                    "\"PickAxe\""
                   ]
                 }
               ],
@@ -11625,25 +11631,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "W is Pressed",
+          "name": "WateringCan is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Corn2",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -11664,11 +11658,12 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
+                        "value": "StringVariable"
                       },
                       "parameters": [
-                        "",
-                        "\"w\""
+                        "CurrentTool",
+                        "=",
+                        "\"WateringCan\""
                       ]
                     }
                   ],
@@ -11734,7 +11729,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "R is Pressed",
+          "name": "Axe is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11743,11 +11738,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "StringVariable"
                   },
                   "parameters": [
-                    "",
-                    "\"r\""
+                    "CurrentTool",
+                    "=",
+                    "\"Axe\""
                   ]
                 }
               ],
@@ -12132,7 +12128,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Inventory System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12505,6 +12500,200 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tool Selection",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "PickAxe",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"Pickaxe\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "WateringCan",
+                "=",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"WateringCan\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Axe",
+                "=",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"Axe\""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Tool Animations",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"PickAxe\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Character",
+                "Animation",
+                "=",
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"WateringCan\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Character",
+                "Animation",
+                "=",
+                "9"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
