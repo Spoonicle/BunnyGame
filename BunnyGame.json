@@ -12544,7 +12544,7 @@
               "parameters": [
                 "CurrentTool",
                 "=",
-                "\"Pickaxe\""
+                "\"PickAxe\""
               ]
             }
           ]
@@ -12651,13 +12651,13 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
                 "Character",
                 "Animation",
                 "=",
-                "6"
+                "\"PlantDown\""
               ]
             }
           ]
@@ -12692,8 +12692,31 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentTool",
+                "=",
+                "\"Axe\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Character",
+                "Animation",
+                "=",
+                "\"PlantDown\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
