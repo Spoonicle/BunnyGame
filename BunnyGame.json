@@ -2580,8 +2580,408 @@
       {
         "file": "assets/Character10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Character10.png\"}",
         "name": "Character9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Character11.png\"}",
+        "name": "Character10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldCorn49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldCorn49",
         "smoothed": false,
         "userAdded": false
       }
@@ -3069,6 +3469,22 @@
           "x": 627,
           "y": 361,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Corn",
+          "persistentUuid": "1483219e-e31b-4794-9448-f30fe61f85d3",
+          "width": 0,
+          "x": 948,
+          "y": 202,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10144,7 +10560,7 @@
               ]
             },
             {
-              "name": "Character",
+              "name": "HoldCorn",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -10154,7 +10570,43 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Character9",
+                      "image": "HoldCorn48",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldCorn49",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11605,8 +12057,8 @@
                       "parameters": [
                         "",
                         "Corn2",
-                        "Plot.X()",
-                        "Plot.Y()\n",
+                        "Plot.X()+6",
+                        "Plot.Y()+6\n",
                         ""
                       ]
                     },
@@ -11639,8 +12091,8 @@
                       "parameters": [
                         "",
                         "Water",
-                        "Corn2.X()+1",
-                        "Corn2.Y()+1",
+                        "Corn2.X()-15",
+                        "Corn2.Y()-15",
                         ""
                       ]
                     },
@@ -11756,6 +12208,18 @@
                   "parameters": [
                     "Character",
                     "Water",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Corn2",
                     "",
                     "",
                     ""
@@ -12063,52 +12527,6 @@
               "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Character",
-                        "Bull",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "BullText",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Thankyou",
-                        "Bull.X()",
-                        "Bull.Y()",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Corn2",
                   "conditions": [
@@ -12146,7 +12564,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Create Text On Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12536,7 +12953,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": " Pick up tools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12746,7 +13162,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tool Selection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13050,6 +13465,79 @@
               "parameters": [
                 "Corn2",
                 "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"Corn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Bull",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BullText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Thankyou",
+                    "Bull.X()",
+                    "Bull.Y()",
+                    ""
+                  ]
+                }
               ]
             }
           ]
