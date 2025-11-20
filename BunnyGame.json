@@ -2576,6 +2576,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Jump/c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Character10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character9",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10098,6 +10106,55 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "WaterRight10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Character",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
