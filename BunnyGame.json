@@ -3021,7 +3021,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.8046714318874149,
+        "zoomFactor": 0.8141881203710005,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -3480,9 +3480,15 @@
           "keepRatio": true,
           "layer": "UI layer",
           "name": "Corn",
+<<<<<<< HEAD
+          "persistentUuid": "f8f1d7a0-11f3-460a-9377-41175df9f762",
+          "width": 0,
+          "x": 947,
+=======
           "persistentUuid": "1483219e-e31b-4794-9448-f30fe61f85d3",
           "width": 0,
           "x": 948,
+>>>>>>> 3955c519e80539d8b7292553f3da225ddaa7d1e9
           "y": 202,
           "zOrder": 18,
           "numberProperties": [],
