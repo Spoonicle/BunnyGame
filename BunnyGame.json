@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -3517,7 +3518,7 @@
           "persistentUuid": "69d10a4c-6c20-4266-b941-1e2e9137a925",
           "width": 44,
           "x": 204,
-          "y": 514,
+          "y": 526,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -4005,6 +4006,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 100,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -4015,10 +4018,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 100,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
