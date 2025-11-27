@@ -2536,264 +2536,22 @@
         "userAdded": false
       },
       {
-        "file": "assets/Hit 10.aac",
-        "kind": "audio",
+        "file": "assets/Bowl.png",
+        "kind": "image",
         "metadata": "",
-        "name": "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "Bowl.png",
+        "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-          "name": "gdevelop-asset-store"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Dishes/f1ff1f9f3bdecbeeb3a166a09064e11d6436eb93a69d4d205ecd0eebb6fe2928_Bowl.png",
+          "name": "Bowl.png"
         }
       },
       {
-        "file": "assets/HoldCorn.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldCorn.png\"}",
-        "name": "HoldCorn",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_StartingPixelGroundTilemap.png4.png",
+        "file": "assets/NPC_Start.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\StartingPixelGroundTilemap.png4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewTiledSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Sprout Lands - Sprites - Basic pack/Objects/Basic Plants.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic Plants.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic Plants2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic Plants3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic Plants4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic Plants5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_Plants.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
+        "name": "NPC_Start",
         "smoothed": false,
         "userAdded": false
       }
@@ -2805,24 +2563,18 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "CurrentTool",
-      "type": "string",
-      "value": "None"
-    }
-  ],
+  "variables": [],
   "layouts": [
     {
-      "b": 37,
+      "b": 255,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game_32Scene",
       "name": "Game Scene",
-      "r": 129,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 211,
+      "v": 255,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -2833,7 +2585,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.800833365321366,
+        "zoomFactor": 0.84164281253732,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -2859,26 +2611,6 @@
                 },
                 {
                   "name": "CornSeed",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "name": "Tomato",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "name": "TomatoSeed",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "name": "Wheat",
-                  "type": "number",
-                  "value": 0
-                },
-                {
-                  "name": "WheatSeed",
                   "type": "number",
                   "value": 0
                 }
@@ -2933,16 +2665,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "1ef6f774-a666-42ab-bcc0-4ecdb8656e6a",
-          "width": 50,
-          "x": 1013,
-          "y": 232,
+          "width": 0,
+          "x": 896,
+          "y": 288,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2950,16 +2681,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "a95eccb9-3ddc-4f20-aeec-55dd40e9cf56",
-          "width": 50,
-          "x": 312,
-          "y": 132,
+          "width": 0,
+          "x": 448,
+          "y": 224,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2967,16 +2697,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "726d874b-fb5d-4e42-82f6-c3d2ab5aefbd",
-          "width": 50,
-          "x": 813,
-          "y": 583,
+          "width": 0,
+          "x": 768,
+          "y": 512,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2984,16 +2713,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "6dabd131-ae06-40b2-930f-50d1e7026310",
-          "width": 50,
-          "x": 562,
-          "y": 583,
+          "width": 0,
+          "x": 608,
+          "y": 512,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3001,16 +2729,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "4422fbf3-9071-4d22-97ee-f258cac25ee2",
-          "width": 50,
-          "x": 751,
-          "y": 312,
+          "width": 0,
+          "x": 728,
+          "y": 338,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3018,16 +2745,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "feccce61-ac7a-40f8-925e-84ce0766fc15",
-          "width": 50,
-          "x": 804,
-          "y": 308,
+          "width": 0,
+          "x": 763,
+          "y": 337,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3035,16 +2761,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "4a78f239-4eba-4792-a457-8b997763e8eb",
-          "width": 50,
-          "x": 751,
-          "y": 389,
+          "width": 0,
+          "x": 728,
+          "y": 388,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3052,16 +2777,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "e8b8a032-ae32-41b2-9468-0aad5f3d0e6c",
-          "width": 50,
-          "x": 858,
-          "y": 389,
+          "width": 0,
+          "x": 797,
+          "y": 388,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3069,16 +2793,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "0558feb8-600f-40b6-b474-67ea4d4a7bd2",
-          "width": 50,
-          "x": 860,
-          "y": 308,
+          "width": 0,
+          "x": 798,
+          "y": 337,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3086,16 +2809,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "cb56c589-3dec-471f-9f78-46c50bc95adc",
-          "width": 50,
-          "x": 713,
-          "y": 583,
+          "width": 0,
+          "x": 704,
+          "y": 512,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3103,16 +2825,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 50,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Plot",
           "persistentUuid": "b18f0870-688b-448d-a660-b6012462631f",
-          "width": 50,
-          "x": 804,
-          "y": 389,
+          "width": 0,
+          "x": 763,
+          "y": 388,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3120,16 +2841,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 103,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "Bull",
           "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
-          "width": 99,
-          "x": 302,
-          "y": 387,
+          "width": 0,
+          "x": 185,
+          "y": 395,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3138,15 +2858,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 4,
-          "height": 145,
+          "depth": 2,
+          "height": 92,
           "keepRatio": true,
           "layer": "",
           "name": "Character",
           "persistentUuid": "b04ac59c-b43b-443f-b211-b154b5e84227",
-          "width": 145,
-          "x": 455,
-          "y": 274,
+          "width": 92,
+          "x": 540,
+          "y": 315,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3154,16 +2874,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 199,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "InventoryWithSlots",
           "persistentUuid": "819b8318-0b6d-4db5-9d03-f9fbdabdb66d",
-          "width": 199,
-          "x": 1062,
-          "y": 22,
+          "width": 0,
+          "x": 908,
+          "y": 163,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -3171,16 +2890,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 24,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "WateringCan",
           "persistentUuid": "40c6aaf1-adf3-4e73-955a-238207316200",
-          "width": 38,
-          "x": 1094,
-          "y": 56,
+          "width": 0,
+          "x": 925,
+          "y": 180,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3188,16 +2906,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 36,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "PickAxe",
           "persistentUuid": "21b8f019-93d5-4ff3-b8cd-9ac51c5f05fb",
-          "width": 31,
-          "x": 1163,
-          "y": 55,
+          "width": 0,
+          "x": 949,
+          "y": 181,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -3205,16 +2922,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 38,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "Axe",
           "persistentUuid": "0b7a4fa3-67b1-4a28-b343-54bd82406b4d",
-          "width": 31,
-          "x": 1233,
-          "y": 54,
+          "width": 0,
+          "x": 970,
+          "y": 179,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3222,16 +2938,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 36,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "CornSeed",
           "persistentUuid": "64199c3c-a63d-4d7d-8786-2748261efa85",
-          "width": 31,
-          "x": 1092,
-          "y": 124,
+          "width": 0,
+          "x": 925,
+          "y": 204,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -3240,15 +2955,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 19,
+          "depth": 1,
+          "height": 1,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "CornSeedText",
           "persistentUuid": "4d6b9156-6981-41d9-88ef-7052dba565e4",
-          "width": 41,
-          "x": 1104,
-          "y": 126,
+          "width": 8,
+          "x": 927,
+          "y": 205,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -3257,15 +2972,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 16,
+          "depth": 1,
+          "height": 8,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "CornText",
           "persistentUuid": "54ab046a-2364-498b-b4f7-cc32154f7cfe",
-          "width": 40,
-          "x": 1173,
-          "y": 126,
+          "width": 4,
+          "x": 951,
+          "y": 205,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -3275,14 +2990,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 29,
+          "height": 19,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "WateringCan2",
           "persistentUuid": "8967a33e-cf1e-40c0-8b71-403f61a06f88",
-          "width": 45,
-          "x": 532,
-          "y": 409,
+          "width": 29,
+          "x": 647,
+          "y": 288,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3292,14 +3007,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 39,
+          "height": 25,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "PickAxe2",
           "persistentUuid": "66ee1f0a-9a93-40b1-8a3d-4209ae1120a0",
-          "width": 38,
-          "x": 650,
-          "y": 351,
+          "width": 24,
+          "x": 812,
+          "y": 282,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3309,14 +3024,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 43,
+          "height": 27,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "Axe2",
           "persistentUuid": "f1cfda8e-45c6-448d-ba05-effef5929c85",
-          "width": 36,
-          "x": 591,
-          "y": 346,
+          "width": 23,
+          "x": 684,
+          "y": 423,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3324,32 +3039,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 2,
-          "height": 46,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "Corn",
-          "persistentUuid": "2cbd3c61-40d7-4cdc-a573-37a78c4cf641",
-          "width": 43,
-          "x": 1160,
-          "y": 118,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "TomatoSeed",
-          "persistentUuid": "869eb4bb-a254-498d-9258-2a1307980f3a",
+          "name": "NpcStart",
+          "persistentUuid": "d2413526-be47-4b2b-a00b-80d2b82e687f",
           "width": 0,
-          "x": 1531,
-          "y": 705,
+          "x": 169,
+          "y": 410,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -3357,16 +3055,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "TomatoSeed",
-          "persistentUuid": "eeff7c8f-4397-44be-9ccd-abb9c5164a80",
-          "width": 32,
-          "x": 1235,
-          "y": 169,
+          "name": "NpcPause",
+          "persistentUuid": "c61f6b42-f4df-4be0-866e-848fb342d440",
+          "width": 0,
+          "x": 457,
+          "y": 409,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3374,121 +3071,37 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 46,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "Tomato",
-          "persistentUuid": "480f9a18-7829-4f7c-bf09-e6345c977ddb",
-          "width": 52,
-          "x": 1069,
-          "y": 168,
+          "name": "NpcEnd",
+          "persistentUuid": "b117ae43-40bf-40d7-b3a4-e7797c5fcdaf",
+          "width": 0,
+          "x": 1032,
+          "y": 433,
           "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "WheatSeed",
-          "persistentUuid": "d70d3e95-36f0-4af9-aa92-9206692f6c8c",
-          "width": 32,
-          "x": 1146,
-          "y": 174,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 33,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "Wheat",
-          "persistentUuid": "956de344-252b-4005-a813-d802dd5a2e63",
-          "width": 35,
-          "x": 1213,
-          "y": 173,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "TomatoText",
-          "persistentUuid": "c802f785-fe08-44be-a3c8-3d67e500e0ad",
-          "width": 0,
-          "x": 1101,
-          "y": 195,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "TomatoSeedText",
-          "persistentUuid": "e64c1a1a-51a0-4e70-9870-0991df160203",
-          "width": 0,
-          "x": 1241,
-          "y": 127,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "WheatText",
-          "persistentUuid": "ef7a6b08-e5e2-40d5-89af-49fb90bacbb0",
-          "width": 0,
-          "x": 1241,
-          "y": 193,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "WheatSeedText",
-          "persistentUuid": "812791f4-a13d-4eef-a12a-27195fda3d3e",
-          "width": 0,
-          "x": 1177,
-          "y": 194,
-          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Ground_Tilemap",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\StartingPixelGroundTilemap.png3",
+            "rowCount": 3,
+            "columnCount": 3,
+            "tileSize": 32,
+            "tilesWithHitBox": ""
+          }
+        },
         {
           "assetStoreId": "",
           "height": 32,
@@ -3951,7 +3564,24 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 50,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -4409,13 +4039,13 @@
           "effects": [],
           "behaviors": [
             {
+              "maxSpeed": 100,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": false,
               "acceleration": 450,
               "angularMaxSpeed": 150,
               "deceleration": 900,
-              "maxSpeed": 125,
               "rotateObject": false,
               "angleOffset": 0,
               "customIsometryAngle": 30,
@@ -4804,42 +4434,6 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stand13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "Stand14",
                       "points": [],
                       "originPoint": {
@@ -5161,6 +4755,42 @@
                           }
                         ]
                       ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stand13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5171,7 +4801,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5544,7 +5174,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5917,7 +5547,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -6290,7 +5920,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -10541,739 +10171,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "HoldCorn",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn8",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn9",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn10",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn11",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn12",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn14",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn15",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn16",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn17",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn18",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn19",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn20",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn21",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -11288,7 +10185,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use PickAxe to  Plant Seed",
+          "string": "[E] Plant Seed",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -11311,7 +10208,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use PickAxe to  Plant Seed",
+            "text": "[E] Plant Seed",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -11392,7 +10289,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use Watering Can Water Plant",
+          "string": "[W] Water Plant",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -11415,7 +10312,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use Watering Can Water Plant",
+            "text": "[W] Water Plant",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -11435,7 +10332,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use Axe to Harvest Vegetable",
+          "string": "[R] Harvest Vegetable",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -11458,7 +10355,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use Axe to Harvest Vegetable",
+            "text": "[R] Harvest Vegetable",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -11469,16 +10366,16 @@
         },
         {
           "assetStoreId": "82d9895f853a2af6cce9df2652b59e2ae2ce8e916beb00c7f6de4128e40f834e",
-          "bottomMargin": 12,
-          "height": 112,
-          "leftMargin": 12,
+          "bottomMargin": 28,
+          "height": 80,
+          "leftMargin": 28,
           "name": "InventoryWithSlots",
-          "rightMargin": 12,
+          "rightMargin": 28,
           "texture": "Inventory_Example_03.png",
-          "tiled": false,
-          "topMargin": 12,
+          "tiled": true,
+          "topMargin": 28,
           "type": "PanelSpriteObject::PanelSprite",
-          "width": 112,
+          "width": 80,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -11802,7 +10699,7 @@
           "string": "0",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 7,
           "color": {
             "b": 255,
             "g": 255,
@@ -11826,7 +10723,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 7,
             "lineHeight": 0,
             "color": "255;255;255"
           }
@@ -11845,7 +10742,7 @@
           "string": "0",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 7,
           "color": {
             "b": 255,
             "g": 255,
@@ -11869,7 +10766,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 7,
             "lineHeight": 0,
             "color": "255;255;255"
           }
@@ -12243,431 +11140,112 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "952ddf7dd9cea6dbcc70c30e371fe759539d0f6af0dfca6388ccb5c92f90c0f8",
+          "name": "Bowl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bowl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 1,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
-          "height": 1080,
-          "name": "NewTiledSprite",
-          "texture": "NewTiledSprite",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 1920,
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcStart",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "TomatoSeed",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcPause",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 8,
-                        "y": 25
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 8,
-                        "y": 25
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 13
-                          },
-                          {
-                            "x": 0,
-                            "y": 13
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Tomato",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 5,
-                            "y": 2
-                          },
-                          {
-                            "x": 17,
-                            "y": 2
-                          },
-                          {
-                            "x": 17,
-                            "y": 15
-                          },
-                          {
-                            "x": 5,
-                            "y": 15
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "WheatSeed",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 12,
-                            "y": 13
-                          },
-                          {
-                            "x": 0,
-                            "y": 13
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Wheat",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 0
-                          },
-                          {
-                            "x": 14,
-                            "y": 14
-                          },
-                          {
-                            "x": 0,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "behaviors": []
         },
         {
           "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "TomatoText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcEnd",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
           "variables": [],
           "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "TomatoSeedText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "WheatText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "WheatSeedText",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "0",
-          "font": "",
-          "textAlignment": "left",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "0",
-            "font": "",
-            "textAlignment": "left",
-            "verticalTextAlignment": "top",
-            "characterSize": 20,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -12686,13 +11264,13 @@
                 "objectName": "Axe"
               },
               {
-                "objectName": "Corn"
-              },
-              {
                 "objectName": "CornSeedText"
               },
               {
                 "objectName": "CornSeed"
+              },
+              {
+                "objectName": "Corn"
               },
               {
                 "objectName": "CornText"
@@ -12718,6 +11296,9 @@
             "objectName": "NewTileMap"
           },
           {
+            "objectName": "Ground_Tilemap"
+          },
+          {
             "objectName": "Top_down_terrain_128x128"
           },
           {
@@ -12731,30 +11312,6 @@
           },
           {
             "objectName": "Water"
-          },
-          {
-            "objectName": "TomatoSeed"
-          },
-          {
-            "objectName": "TomatoSeedText"
-          },
-          {
-            "objectName": "WheatSeed"
-          },
-          {
-            "objectName": "WheatSeedText"
-          },
-          {
-            "objectName": "Tomato"
-          },
-          {
-            "objectName": "TomatoText"
-          },
-          {
-            "objectName": "Wheat"
-          },
-          {
-            "objectName": "WheatText"
           },
           {
             "folderName": "Mobile Controls",
@@ -12777,6 +11334,15 @@
             "objectName": "Bull"
           },
           {
+            "objectName": "NpcStart"
+          },
+          {
+            "objectName": "NpcPause"
+          },
+          {
+            "objectName": "NpcEnd"
+          },
+          {
             "objectName": "BullText"
           },
           {
@@ -12792,7 +11358,7 @@
             "objectName": "Thankyou"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "Bowl"
           }
         ]
       },
@@ -12820,16 +11386,6 @@
                 "2",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Inventory.Materials.CornSeed",
-                "=",
-                "6"
               ]
             }
           ]
@@ -12902,15 +11458,6 @@
               },
               "parameters": [
                 "HarvestText",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Thankyou",
                 ""
               ]
             }
@@ -13073,7 +11620,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Pickaxe is Pressed",
+          "name": "E is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -13082,12 +11629,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"PickAxe\""
+                    "",
+                    "\"e\""
                   ]
                 }
               ],
@@ -13117,16 +11663,6 @@
                         "State",
                         "=",
                         "\"Empty\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "Inventory.Materials.CornSeed",
-                        ">",
-                        "0"
                       ]
                     }
                   ],
@@ -13206,89 +11742,9 @@
                         "Corn2.Y()+1",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Inventory.Materials.CornSeed",
-                        "-",
-                        "1"
-                      ]
                     }
                   ]
                 },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Corn2",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Corn2",
-                        "NeedsWater",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                      },
-                      "parameters": [
-                        "Corn2",
-                        "Animation"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Corn is Pressed",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Corn\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -13306,28 +11762,9 @@
                     },
                     {
                       "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "\"e\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": []
-                    },
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "Inventory.Materials.Corn",
-                        ">",
-                        "0"
-                      ]
                     }
                   ],
                   "actions": [
@@ -13351,27 +11788,6 @@
                         "Bull.Y()",
                         ""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Character",
-                        "Corn",
-                        "-",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Inventory.Materials.Corn",
-                        "-",
-                        "1"
-                      ]
                     }
                   ]
                 },
@@ -13413,13 +11829,25 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "WateringCan is Pressed",
+          "name": "W is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Corn2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -13440,12 +11868,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "StringVariable"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "CurrentTool",
-                        "=",
-                        "\"WateringCan\""
+                        "",
+                        "\"w\""
                       ]
                     }
                   ],
@@ -13511,7 +11938,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Axe is Pressed",
+          "name": "R is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -13520,12 +11947,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Axe\""
+                    "",
+                    "\"r\""
                   ]
                 }
               ],
@@ -13638,7 +12064,7 @@
                       "parameters": [
                         "Inventory.Materials.CornSeed",
                         "+",
-                        "2"
+                        "3"
                       ]
                     }
                   ],
@@ -13899,6 +12325,15 @@
                     "BullText",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    ""
+                  ]
                 }
               ]
             }
@@ -14067,50 +12502,6 @@
                     "=",
                     "\"x\" + ToString(Inventory.Materials.Corn)"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TomatoSeedText",
-                    "Text",
-                    "=",
-                    "\"x\" + ToString(Inventory.Materials.TomatoSeed)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "TomatoText",
-                    "Text",
-                    "=",
-                    "\"x\" + ToString(Inventory.Materials.Tomato)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "WheatSeedText",
-                    "Text",
-                    "=",
-                    "\"x\" + ToString(Inventory.Materials.WheatSeed)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "WheatText",
-                    "Text",
-                    "=",
-                    "\"x\" + ToString(Inventory.Materials.Wheat)"
-                  ]
                 }
               ]
             }
@@ -14122,7 +12513,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": " Pick up tools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14332,282 +12722,153 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Tool Selection",
+          "name": "NPC Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"Enter\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "NpcPause.X()",
+                    "NpcPause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "NpcPause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"Enter\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "NpcEnd.X()",
+                    "NpcEnd.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "PickAxe",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"PickAxe\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "WateringCan",
-                "=",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"WateringCan\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Axe",
-                "=",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Axe\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Corn",
-                "=",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Corn\""
-              ]
-            }
-          ]
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Tool Animations",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"PickAxe\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"PlantDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"WateringCan\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "9"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Axe\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"PlantUp\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Corn\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"HoldCorn\""
-              ]
-            }
-          ]
         }
       ],
       "layers": [
@@ -14726,6 +12987,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
