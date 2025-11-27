@@ -2796,6 +2796,150 @@
         "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Plants6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/OtherSprites/Seedling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\OtherSprites\\Seedling.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Hills.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Hills.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Hills",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Grass2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Grass2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Grass3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Grass3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Water.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Bitmask references 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Bitmask references 2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Walls_Tilset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Wooden_House_Walls_Tilset.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Tilled_Dirt_Wide.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Tilled_Dirt_Wide.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Tilled_Dirt_Wide",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Fences.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Tilesets_Fences2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2833,7 +2977,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.800833365321366,
+        "zoomFactor": 0.8846089555231629,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -3026,8 +3170,8 @@
           "name": "Plot",
           "persistentUuid": "feccce61-ac7a-40f8-925e-84ce0766fc15",
           "width": 50,
-          "x": 804,
-          "y": 308,
+          "x": 805,
+          "y": 313,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3365,8 +3509,8 @@
           "name": "TomatoSeed",
           "persistentUuid": "eeff7c8f-4397-44be-9ccd-abb9c5164a80",
           "width": 32,
-          "x": 1235,
-          "y": 169,
+          "x": 1214,
+          "y": 106,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3376,13 +3520,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 46,
+          "height": 41,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "Tomato",
           "persistentUuid": "480f9a18-7829-4f7c-bf09-e6345c977ddb",
-          "width": 52,
-          "x": 1069,
+          "width": 35,
+          "x": 1074,
           "y": 168,
           "zOrder": 21,
           "numberProperties": [],
@@ -3400,7 +3544,7 @@
           "persistentUuid": "d70d3e95-36f0-4af9-aa92-9206692f6c8c",
           "width": 32,
           "x": 1146,
-          "y": 174,
+          "y": 173,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -3483,6 +3627,142 @@
           "x": 1177,
           "y": 194,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 173,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Hill1",
+          "persistentUuid": "2cefec20-0744-462c-9662-e6af5be586de",
+          "width": 182,
+          "x": 384,
+          "y": 0,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 267,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Grass1",
+          "persistentUuid": "402f4148-511f-4812-89d2-71e6441ecf7c",
+          "width": 73,
+          "x": 886,
+          "y": 41,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "river",
+          "persistentUuid": "0266d9db-5c61-46ca-b849-4428b7ecb1cc",
+          "width": 276,
+          "x": -1,
+          "y": 607,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NewSprite3",
+          "persistentUuid": "bd847b86-df89-4d4b-93ef-5fd831c3efd0",
+          "width": 31,
+          "x": 571,
+          "y": 42,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NewSprite4",
+          "persistentUuid": "c3415c59-4516-4859-9a49-68180ea1919b",
+          "width": 86,
+          "x": 578,
+          "y": 20,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NewSprite3",
+          "persistentUuid": "46b76df0-39ad-40b1-bc57-fdacb79b9354",
+          "width": 31,
+          "x": 787,
+          "y": 43,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NewSprite4",
+          "persistentUuid": "dcd7cb14-6d53-4af5-b128-12974bec9381",
+          "width": 86,
+          "x": 650,
+          "y": 21,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NewSprite4",
+          "persistentUuid": "9a5615d4-e4aa-448c-914c-e5cbdc4a9f3e",
+          "width": 86,
+          "x": 721,
+          "y": 23,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12264,28 +12544,28 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
+                  "looping": false,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants4",
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 8,
-                        "y": 25
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 8,
-                        "y": 25
+                        "x": 0,
+                        "y": 0
                       },
                       "customCollisionMask": [
                         [
@@ -12325,7 +12605,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -12335,7 +12615,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants3",
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12351,20 +12631,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 5,
-                            "y": 2
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 17,
-                            "y": 2
+                            "x": 12,
+                            "y": 0
                           },
                           {
-                            "x": 17,
-                            "y": 15
+                            "x": 12,
+                            "y": 13
                           },
                           {
-                            "x": 5,
-                            "y": 15
+                            "x": 0,
+                            "y": 13
                           }
                         ]
                       ]
@@ -12386,7 +12666,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants",
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -12396,7 +12676,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Plants5",
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12412,20 +12692,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 2,
+                            "y": 2
                           },
                           {
-                            "x": 12,
-                            "y": 0
+                            "x": 14,
+                            "y": 2
                           },
                           {
-                            "x": 12,
-                            "y": 13
+                            "x": 14,
+                            "y": 15
                           },
                           {
-                            "x": 0,
-                            "y": 13
+                            "x": 2,
+                            "y": 15
                           }
                         ]
                       ]
@@ -12457,7 +12737,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants",
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Plants6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12473,20 +12753,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 1,
+                            "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 0
+                            "x": 15,
+                            "y": 1
                           },
                           {
-                            "x": 14,
-                            "y": 14
+                            "x": 15,
+                            "y": 15
                           },
                           {
-                            "x": 0,
-                            "y": 14
+                            "x": 1,
+                            "y": 15
                           }
                         ]
                       ]
@@ -12668,11 +12948,362 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Hill1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Hills",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Hills",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 47,
+                            "y": 0
+                          },
+                          {
+                            "x": 47,
+                            "y": 48
+                          },
+                          {
+                            "x": 1,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Grass1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Grass",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Grass3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 12,
+                            "y": 44
+                          },
+                          {
+                            "x": 0,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "river",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Water.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 9,
+                            "y": 1
+                          },
+                          {
+                            "x": 9,
+                            "y": 44
+                          },
+                          {
+                            "x": 3,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Fences2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 38,
+                            "y": 0
+                          },
+                          {
+                            "x": 38,
+                            "y": 11
+                          },
+                          {
+                            "x": 0,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Map",
+            "children": [
+              {
+                "objectName": "Hill1"
+              },
+              {
+                "objectName": "Grass1"
+              }
+            ]
+          },
+          {
+            "objectName": "river"
+          },
           {
             "folderName": "InventoryUI",
             "children": [
@@ -12793,6 +13424,21 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "NewSprite4"
+          },
+          {
+            "objectName": "NewSprite5"
           }
         ]
       },
