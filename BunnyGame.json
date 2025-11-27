@@ -3432,13 +3432,8 @@
           "name": "WateringCan2",
           "persistentUuid": "8967a33e-cf1e-40c0-8b71-403f61a06f88",
           "width": 29,
-<<<<<<< Updated upstream
           "x": 589,
           "y": 401,
-=======
-          "x": 655,
-          "y": 361,
->>>>>>> Stashed changes
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3454,13 +3449,8 @@
           "name": "PickAxe2",
           "persistentUuid": "66ee1f0a-9a93-40b1-8a3d-4209ae1120a0",
           "width": 24,
-<<<<<<< Updated upstream
           "x": 664,
           "y": 364,
-=======
-          "x": 622,
-          "y": 361,
->>>>>>> Stashed changes
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3476,11 +3466,7 @@
           "name": "Axe2",
           "persistentUuid": "f1cfda8e-45c6-448d-ba05-effef5929c85",
           "width": 23,
-<<<<<<< Updated upstream
           "x": 627,
-=======
-          "x": 689,
->>>>>>> Stashed changes
           "y": 361,
           "zOrder": 17,
           "numberProperties": [],
