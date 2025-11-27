@@ -2536,452 +2536,22 @@
         "userAdded": false
       },
       {
-        "file": "assets/Hit 10.aac",
-        "kind": "audio",
+        "file": "assets/Bowl.png",
+        "kind": "image",
         "metadata": "",
-        "name": "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "Bowl.png",
+        "smoothed": false,
         "userAdded": false,
         "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-          "name": "gdevelop-asset-store"
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Pixel art items/Pixel Food/Dishes/f1ff1f9f3bdecbeeb3a166a09064e11d6436eb93a69d4d205ecd0eebb6fe2928_Bowl.png",
+          "name": "Bowl.png"
         }
       },
       {
-        "file": "assets/Jump_Light_01.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Water/Jump/ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Jump_Land_05.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Jump/c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Character10.png",
+        "file": "assets/NPC_Start.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Character10.png\"}",
-        "name": "Character9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Character11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Character11.png\"}",
-        "name": "Character10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn30",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn31.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn31",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn33",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn34",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn35",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn36",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn37",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn38",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn40",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn41",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn42",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn43",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn44.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn44",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn45.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn45",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn46.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn46",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn47.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn47",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn48.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn48",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/HoldCorn49.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "HoldCorn49",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NPC_Start",
         "smoothed": false,
         "userAdded": false
       }
@@ -2993,13 +2563,7 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [
-    {
-      "name": "CurrentTool",
-      "type": "string",
-      "value": "None"
-    }
-  ],
+  "variables": [],
   "layouts": [
     {
       "b": 255,
@@ -3021,7 +2585,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8141881203710005,
+        "zoomFactor": 0.84164281253732,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -3284,8 +2848,8 @@
           "name": "Bull",
           "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
           "width": 0,
-          "x": 442,
-          "y": 387,
+          "x": 185,
+          "y": 395,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3432,8 +2996,8 @@
           "name": "WateringCan2",
           "persistentUuid": "8967a33e-cf1e-40c0-8b71-403f61a06f88",
           "width": 29,
-          "x": 589,
-          "y": 401,
+          "x": 647,
+          "y": 288,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3449,8 +3013,8 @@
           "name": "PickAxe2",
           "persistentUuid": "66ee1f0a-9a93-40b1-8a3d-4209ae1120a0",
           "width": 24,
-          "x": 664,
-          "y": 364,
+          "x": 812,
+          "y": 282,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -3466,8 +3030,8 @@
           "name": "Axe2",
           "persistentUuid": "f1cfda8e-45c6-448d-ba05-effef5929c85",
           "width": 23,
-          "x": 627,
-          "y": 361,
+          "x": 684,
+          "y": 423,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -3479,18 +3043,44 @@
           "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "Corn",
-<<<<<<< HEAD
-          "persistentUuid": "f8f1d7a0-11f3-460a-9377-41175df9f762",
+          "name": "NpcStart",
+          "persistentUuid": "d2413526-be47-4b2b-a00b-80d2b82e687f",
           "width": 0,
-          "x": 947,
-=======
-          "persistentUuid": "1483219e-e31b-4794-9448-f30fe61f85d3",
+          "x": 169,
+          "y": 410,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NpcPause",
+          "persistentUuid": "c61f6b42-f4df-4be0-866e-848fb342d440",
           "width": 0,
-          "x": 948,
->>>>>>> 3955c519e80539d8b7292553f3da225ddaa7d1e9
-          "y": 202,
-          "zOrder": 18,
+          "x": 457,
+          "y": 409,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "NpcEnd",
+          "persistentUuid": "b117ae43-40bf-40d7-b3a4-e7797c5fcdaf",
+          "width": 0,
+          "x": 1032,
+          "y": 433,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3974,7 +3564,24 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 50,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -4432,13 +4039,13 @@
           "effects": [],
           "behaviors": [
             {
+              "maxSpeed": 100,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": false,
               "acceleration": 450,
               "angularMaxSpeed": 150,
               "deceleration": 900,
-              "maxSpeed": 125,
               "rotateObject": false,
               "angleOffset": 0,
               "customIsometryAngle": 30,
@@ -4827,42 +4434,6 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stand13",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
                       "image": "Stand14",
                       "points": [],
                       "originPoint": {
@@ -5184,6 +4755,42 @@
                           }
                         ]
                       ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stand13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -5194,7 +4801,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5567,7 +5174,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -5940,7 +5547,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -6313,7 +5920,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -10564,91 +10171,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "HoldCorn",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn48",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "HoldCorn49",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 16
-                          },
-                          {
-                            "x": 31,
-                            "y": 32
-                          },
-                          {
-                            "x": 17,
-                            "y": 32
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -10663,7 +10185,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use PickAxe to  Plant Seed",
+          "string": "[E] Plant Seed",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10686,7 +10208,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use PickAxe to  Plant Seed",
+            "text": "[E] Plant Seed",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -10767,7 +10289,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use Watering Can Water Plant",
+          "string": "[W] Water Plant",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10790,7 +10312,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use Watering Can Water Plant",
+            "text": "[W] Water Plant",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -10810,7 +10332,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use Axe to Harvest Vegetable",
+          "string": "[R] Harvest Vegetable",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -10833,7 +10355,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use Axe to Harvest Vegetable",
+            "text": "[R] Harvest Vegetable",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -11616,6 +11138,114 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "952ddf7dd9cea6dbcc70c30e371fe759539d0f6af0dfca6388ccb5c92f90c0f8",
+          "name": "Bowl",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bowl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 6
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 1,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcStart",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcPause",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NpcEnd",
+          "rightMargin": 0,
+          "texture": "NPC_Start",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -11704,6 +11334,15 @@
             "objectName": "Bull"
           },
           {
+            "objectName": "NpcStart"
+          },
+          {
+            "objectName": "NpcPause"
+          },
+          {
+            "objectName": "NpcEnd"
+          },
+          {
             "objectName": "BullText"
           },
           {
@@ -11717,6 +11356,9 @@
           },
           {
             "objectName": "Thankyou"
+          },
+          {
+            "objectName": "Bowl"
           }
         ]
       },
@@ -11978,7 +11620,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Pickaxe is Pressed",
+          "name": "E is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -11987,12 +11629,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"PickAxe\""
+                    "",
+                    "\"e\""
                   ]
                 }
               ],
@@ -12063,8 +11704,8 @@
                       "parameters": [
                         "",
                         "Corn2",
-                        "Plot.X()+6",
-                        "Plot.Y()+6\n",
+                        "Plot.X()",
+                        "Plot.Y()\n",
                         ""
                       ]
                     },
@@ -12097,21 +11738,9 @@
                       "parameters": [
                         "",
                         "Water",
-                        "Corn2.X()-15",
-                        "Corn2.Y()-15",
+                        "Corn2.X()+1",
+                        "Corn2.Y()+1",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "47145ef21ad7fe6be02a0ba478b5df0761869213c56c4bcf2835f84c6c8c76af_Hit 10.aac",
-                        "",
-                        "100",
-                        "1"
                       ]
                     }
                   ]
@@ -12200,7 +11829,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "WateringCan is Pressed",
+          "name": "W is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -12213,7 +11842,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "Water",
+                    "Corn2",
                     "",
                     "",
                     ""
@@ -12225,7 +11854,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "Corn2",
+                    "Water",
                     "",
                     "",
                     ""
@@ -12239,12 +11868,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "StringVariable"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "CurrentTool",
-                        "=",
-                        "\"WateringCan\""
+                        "",
+                        "\"w\""
                       ]
                     }
                   ],
@@ -12289,18 +11917,6 @@
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
@@ -12322,7 +11938,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Axe is Pressed",
+          "name": "R is Pressed",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -12331,12 +11947,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "StringVariable"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Axe\""
+                    "",
+                    "\"r\""
                   ]
                 }
               ],
@@ -12451,18 +12066,6 @@
                         "+",
                         "3"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "c649efe58c332f171f2cddac7dd244d196abd988d3d68d23af82740e8437847e_Jump_Land_05.wav",
-                        "",
-                        "100",
-                        "1"
-                      ]
                     }
                   ],
                   "events": [
@@ -12498,64 +12101,6 @@
                             ""
                           ]
                         }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Corn is Pressed",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Corn\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Corn2",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Corn2",
-                        "NeedsWater",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                      },
-                      "parameters": [
-                        "Corn2",
-                        "Animation"
                       ]
                     }
                   ]
@@ -12778,6 +12323,15 @@
                   },
                   "parameters": [
                     "BullText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Thankyou",
                     ""
                   ]
                 }
@@ -13168,7 +12722,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Tool Selection",
+          "name": "NPC Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -13177,213 +12731,45 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SourisSurObjet"
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
                   },
                   "parameters": [
-                    "PickAxe",
-                    "",
-                    "",
-                    ""
+                    "Bull",
+                    "\"Enter\"",
+                    "<=",
+                    "2"
                   ]
                 },
                 {
                   "type": {
-                    "value": "MouseButtonFromTextReleased"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetStringVariable"
+                    "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"PickAxe\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "WateringCan",
-                    "=",
+                    "Bull",
+                    "Pathfinding",
                     "",
-                    ""
+                    "NpcPause.X()",
+                    "NpcPause.Y()"
                   ]
                 },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"WateringCan\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Axe",
-                    "=",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Axe\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Corn",
-                    "=",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Corn\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Tool Animations",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"PickAxe\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Animation",
-                    "=",
-                    "\"PlantDown\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"WateringCan\""
-                  ]
-                }
-              ],
-              "actions": [
                 {
                   "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "Character",
+                    "Bull",
                     "Animation",
                     "=",
-                    "9"
+                    "1"
                   ]
                 }
               ]
@@ -13391,125 +12777,13 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Corn\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Animation",
-                    "=",
-                    "\"HoldCorn\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Axe\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Animation",
-                    "=",
-                    "\"PlantDown\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Corn2",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Corn2",
-                "NeedsWater",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Corn2",
-                "Animation"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"e\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "CurrentTool",
-                    "=",
-                    "\"Corn\""
-                  ]
-                },
                 {
                   "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Character",
                     "Bull",
+                    "NpcPause",
                     "",
                     "",
                     ""
@@ -13525,28 +12799,76 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Delete"
+                    "value": "RemoveObjectTimer"
                   },
                   "parameters": [
-                    "BullText",
-                    ""
+                    "Bull",
+                    "\"Enter\""
                   ]
                 },
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "",
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
                     "Thankyou",
-                    "Bull.X()",
-                    "Bull.Y()",
-                    ""
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "NpcEnd.X()",
+                    "NpcEnd.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -13665,6 +12987,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
