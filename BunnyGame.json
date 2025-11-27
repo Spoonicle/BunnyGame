@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 246,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -80,7 +80,10 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -2846,6 +2849,14 @@
         "userAdded": false
       },
       {
+        "file": "assets/Feeding_Station.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Feeding_Station.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
         "file": "assets/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png",
         "kind": "image",
         "metadata": "",
@@ -3100,9 +3111,16 @@
         "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Furniture.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/AnimalExit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AnimalExit",
+        "smoothed": false,
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -3132,12 +3150,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8557526922726751,
+        "zoomFactor": 0.6142111531023048,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -3432,9 +3452,9 @@
           "name": "Bull",
           "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
           "width": 99,
-          "x": 302,
-          "y": 387,
-          "zOrder": 5,
+          "x": -146,
+          "y": 500,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3964,6 +3984,23 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Bullpause",
+          "persistentUuid": "69d10a4c-6c20-4266-b941-1e2e9137a925",
+          "width": 44,
+          "x": 204,
+          "y": 526,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -4025,6 +4062,23 @@
           "x": 990,
           "y": 166,
           "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "AnimalExit",
+          "persistentUuid": "82532d34-3af4-4ebd-839a-17ae78d7842d",
+          "width": 0,
+          "x": 1311,
+          "y": 536,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4493,7 +4547,24 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -13334,137 +13405,203 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "river",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
+  "adaptCollisionMaskAutomatically": true,
+  "assetStoreId": "",
+  "name": "river",
+  "type": "Sprite",
+  "updateIfNotVisible": false,
+  "variables": [],
+  "effects": [],
+  "behaviors": [],
+  "animations": [
+    {
+      "name": "",
+      "useMultipleDirections": false,
+      "directions": [
+        {
+          "looping": false,
+          "timeBetweenFrames": 0.08,
+          "sprites": [
             {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Water.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 16
-                          },
-                          {
-                            "x": 0,
-                            "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
+              "hasCustomCollisionMask": true,
+              "image": "assets\\Sprout Lands - Sprites - Basic pack\\Tilesets\\Water.png",
+              "points": [],
+              "originPoint": {
+                "name": "origine",
+                "x": 0,
+                "y": 0
+              },
+              "centerPoint": {
+                "automatic": true,
+                "name": "centre",
+                "x": 0,
+                "y": 0
+              },
+              "customCollisionMask": [
+                [
+                  { "x": 0, "y": 0 },
+                  { "x": 64, "y": 0 },
+                  { "x": 64, "y": 16 },
+                  { "x": 0, "y": 16 }
+                ]
               ]
             }
           ]
-        },
+        }
+      ]
+    }
+  ]
+},
+{
+  "adaptCollisionMaskAutomatically": true,
+  "assetStoreId": "",
+  "name": "Bullpause",
+  "type": "Sprite",
+  "updateIfNotVisible": false,
+  "variables": [],
+  "effects": [],
+  "behaviors": [],
+  "animations": [
+    {
+      "name": "",
+      "useMultipleDirections": false,
+      "directions": [
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite2",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Mushroom",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
+          "looping": false,
+          "timeBetweenFrames": 0.08,
+          "sprites": [
             {
-              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Grass Biom things 1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Grass Biom things2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 2
-                          },
-                          {
-                            "x": 15,
-                            "y": 2
-                          },
-                          {
-                            "x": 15,
-                            "y": 14
-                          },
-                          {
-                            "x": 2,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
+              "hasCustomCollisionMask": true,
+              "image": "assets\\Feeding_Station.webp",
+              "points": [],
+              "originPoint": {
+                "name": "origine",
+                "x": 0,
+                "y": 0
+              },
+              "centerPoint": {
+                "automatic": true,
+                "name": "centre",
+                "x": 0,
+                "y": 0
+              },
+              "customCollisionMask": [
+                [
+                  { "x": 0, "y": 0 },
+                  { "x": 321, "y": 0 },
+                  { "x": 321, "y": 360 },
+                  { "x": 0, "y": 360 }
+                ]
               ]
             }
           ]
-        },
+        }
+      ]
+    }
+  ]
+},
+{
+  "assetStoreId": "",
+  "height": 32,
+  "name": "NewTiledSprite2",
+  "texture": "",
+  "type": "TiledSpriteObject::TiledSprite",
+  "width": 32,
+  "variables": [],
+  "effects": [],
+  "behaviors": []
+},
+{
+  "adaptCollisionMaskAutomatically": true,
+  "assetStoreId": "",
+  "name": "Mushroom",
+  "type": "Sprite",
+  "updateIfNotVisible": false,
+  "variables": [],
+  "effects": [],
+  "behaviors": [],
+  "animations": [
+    {
+      "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Grass Biom things 1",
+      "useMultipleDirections": false,
+      "directions": [
+        {
+          "looping": false,
+          "metadata": "{\"pskl\":{}}",
+          "timeBetweenFrames": 0.08,
+          "sprites": [
+            {
+              "hasCustomCollisionMask": true,
+              "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic Grass Biom things2",
+              "points": [],
+              "originPoint": {
+                "name": "origine",
+                "x": 0,
+                "y": 0
+              },
+              "centerPoint": {
+                "automatic": true,
+                "name": "centre",
+                "x": 0,
+                "y": 0
+              },
+              "customCollisionMask": [
+                [
+                  { "x": 2, "y": 2 },
+                  { "x": 15, "y": 2 },
+                  { "x": 15, "y": 14 },
+                  { "x": 2, "y": 14 }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "adaptCollisionMaskAutomatically": true,
+  "assetStoreId": "",
+  "name": "AnimalExit",
+  "type": "Sprite",
+  "updateIfNotVisible": false,
+  "variables": [],
+  "effects": [],
+  "behaviors": [],
+  "animations": [
+    {
+      "name": "AnimalExit",
+      "useMultipleDirections": false,
+      "directions": [
+        {
+          "looping": false,
+          "metadata": "{\"pskl\":{}}",
+          "timeBetweenFrames": 0.08,
+          "sprites": [
+            {
+              "hasCustomCollisionMask": false,
+              "image": "AnimalExit",
+              "points": [],
+              "originPoint": {
+                "name": "origine",
+                "x": 0,
+                "y": 0
+              },
+              "centerPoint": {
+                "automatic": true,
+                "name": "centre",
+                "x": 0,
+                "y": 0
+              },
+              "customCollisionMask": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
@@ -13984,6 +14121,12 @@
             "objectName": "WheatText"
           },
           {
+            "objectName": "Bull"
+          },
+          {
+            "objectName": "Bullpause"
+          },
+          {
             "folderName": "Mobile Controls",
             "children": [
               {
@@ -13999,9 +14142,6 @@
                 "objectName": "Axe2"
               }
             ]
-          },
-          {
-            "objectName": "Bull"
           },
           {
             "objectName": "BullText"
@@ -14035,6 +14175,9 @@
           },
           {
             "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "AnimalExit"
           }
         ]
       },
@@ -15850,6 +15993,169 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Bull Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"EnterTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "Bullpause.X()",
+                    "Bullpause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Bullpause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"EnterTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "AnimalExit.X()",
+                    "AnimalExit.Y()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -15857,6 +16163,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15885,6 +16192,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15902,6 +16210,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -15968,6 +16277,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
@@ -19785,6 +20098,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
