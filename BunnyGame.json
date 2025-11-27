@@ -13261,25 +13261,51 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "folderName": "InventoryUI",
+            "folderName": "Items",
             "children": [
               {
-                "objectName": "WateringCan"
+                "objectName": "carrot"
               },
               {
-                "objectName": "PickAxe"
+                "objectName": "Corn2"
               },
               {
-                "objectName": "Axe"
+                "objectName": "Character"
+              },
+              {
+                "objectName": "CornSeed"
               },
               {
                 "objectName": "Corn"
               },
               {
-                "objectName": "CornSeedText"
+                "objectName": "Tomato"
               },
               {
-                "objectName": "CornSeed"
+                "objectName": "TomatoSeed"
+              },
+              {
+                "objectName": "WheatSeed"
+              },
+              {
+                "objectName": "Axe"
+              },
+              {
+                "objectName": "PickAxe"
+              },
+              {
+                "objectName": "Wheat"
+              },
+              {
+                "objectName": "WateringCan"
+              }
+            ]
+          },
+          {
+            "folderName": "InventoryUI",
+            "children": [
+              {
+                "objectName": "CornSeedText"
               },
               {
                 "objectName": "CornText"
@@ -13290,19 +13316,45 @@
             ]
           },
           {
-            "objectName": "Character"
-          },
-          {
-            "objectName": "Corn2"
-          },
-          {
-            "objectName": "carrot"
+            "folderName": "Text",
+            "children": [
+              {
+                "objectName": "Thankyou"
+              },
+              {
+                "objectName": "WaterText"
+              },
+              {
+                "objectName": "HarvestText"
+              },
+              {
+                "objectName": "PlantText"
+              },
+              {
+                "objectName": "BullText"
+              },
+              {
+                "objectName": "WheatText"
+              },
+              {
+                "objectName": "TomatoText"
+              },
+              {
+                "objectName": "WheatSeedText"
+              },
+              {
+                "objectName": "TomatoSeedText"
+              }
+            ]
           },
           {
             "objectName": "NewSprite"
           },
           {
             "objectName": "NewTileMap"
+          },
+          {
+            "objectName": "TempPlant"
           },
           {
             "objectName": "Top_down_terrain_128x128"
@@ -13314,34 +13366,7 @@
             "objectName": "Plot"
           },
           {
-            "objectName": "TempPlant"
-          },
-          {
             "objectName": "Water"
-          },
-          {
-            "objectName": "TomatoSeed"
-          },
-          {
-            "objectName": "TomatoSeedText"
-          },
-          {
-            "objectName": "WheatSeed"
-          },
-          {
-            "objectName": "WheatSeedText"
-          },
-          {
-            "objectName": "Tomato"
-          },
-          {
-            "objectName": "TomatoText"
-          },
-          {
-            "objectName": "Wheat"
-          },
-          {
-            "objectName": "WheatText"
           },
           {
             "objectName": "Bull"
@@ -13365,21 +13390,6 @@
                 "objectName": "Axe2"
               }
             ]
-          },
-          {
-            "objectName": "BullText"
-          },
-          {
-            "objectName": "PlantText"
-          },
-          {
-            "objectName": "HarvestText"
-          },
-          {
-            "objectName": "WaterText"
-          },
-          {
-            "objectName": "Thankyou"
           },
           {
             "objectName": "NewTiledSprite"
