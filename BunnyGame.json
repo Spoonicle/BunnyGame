@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -3260,7 +3261,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.800833365321366,
+        "zoomFactor": 0.6142111531023048,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -3555,9 +3556,9 @@
           "name": "Bull",
           "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
           "width": 99,
-          "x": 302,
-          "y": 387,
-          "zOrder": 5,
+          "x": -146,
+          "y": 500,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3900,50 +3901,32 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 36,
+          "depth": 1,
+          "height": 49,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "CornSeed",
-          "persistentUuid": "936f08bc-65c1-4d19-bf24-d19095af68ef",
-          "width": 31,
-          "x": 652,
-          "y": 351,
-          "zOrder": 11,
+          "name": "Bullpause",
+          "persistentUuid": "69d10a4c-6c20-4266-b941-1e2e9137a925",
+          "width": 44,
+          "x": 204,
+          "y": 526,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 35,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "UI layer",
-          "name": "WheatSeed",
-          "persistentUuid": "3d4098c5-ee78-46f6-97c6-68ac006e10bb",
-          "width": 32,
-          "x": 577,
-          "y": 389,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "TomatoSeed",
-          "persistentUuid": "ddbd3c0a-5ed2-4c6c-8e35-930293670f7f",
-          "width": 32,
-          "x": 658,
-          "y": 450,
-          "zOrder": 20,
+          "name": "AnimalExit",
+          "persistentUuid": "82532d34-3af4-4ebd-839a-17ae78d7842d",
+          "width": 0,
+          "x": 1311,
+          "y": 536,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4412,7 +4395,24 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
@@ -13153,6 +13153,108 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bullpause",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Feeding_Station.webp",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 321,
+                            "y": 0
+                          },
+                          {
+                            "x": 321,
+                            "y": 360
+                          },
+                          {
+                            "x": 0,
+                            "y": 360
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AnimalExit",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "AnimalExit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "AnimalExit",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -13242,6 +13344,12 @@
             "objectName": "WheatText"
           },
           {
+            "objectName": "Bull"
+          },
+          {
+            "objectName": "Bullpause"
+          },
+          {
             "folderName": "Mobile Controls",
             "children": [
               {
@@ -13257,9 +13365,6 @@
                 "objectName": "Axe2"
               }
             ]
-          },
-          {
-            "objectName": "Bull"
           },
           {
             "objectName": "BullText"
@@ -13278,6 +13383,9 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "AnimalExit"
           }
         ]
       },
@@ -15112,6 +15220,169 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Bull Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"EnterTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "Bullpause.X()",
+                    "Bullpause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Bullpause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "\"EnterTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Bull",
+                    "Pathfinding",
+                    "",
+                    "AnimalExit.X()",
+                    "AnimalExit.Y()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -15233,6 +15504,10 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
           "name": "Resizable",
