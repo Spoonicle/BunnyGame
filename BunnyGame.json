@@ -19856,7 +19856,7 @@
                           },
                           "parameters": [
                             "",
-                            "WheatPlant",
+                            "CornPlant",
                             "Plot.X()",
                             "Plot.Y()\n",
                             ""
@@ -19878,7 +19878,7 @@
                             "value": "SetBooleanObjectVariable"
                           },
                           "parameters": [
-                            "WheatPlant",
+                            "CornPlant",
                             "NeedsWater",
                             "True",
                             "\"Planted\""
@@ -19891,8 +19891,8 @@
                           "parameters": [
                             "",
                             "Water",
-                            "WheatPlant.X() + 1",
-                            "WheatPlant.Y() + 1",
+                            "CornPlant.X() + 1",
+                            "CornPlant.Y() + 1",
                             ""
                           ]
                         },
@@ -19922,14 +19922,14 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "WheatPlant",
+                      "object": "CornPlant",
                       "conditions": [
                         {
                           "type": {
                             "value": "BooleanObjectVariable"
                           },
                           "parameters": [
-                            "WheatPlant",
+                            "CornPlant",
                             "NeedsWater",
                             "True",
                             ""
@@ -19942,7 +19942,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
                           },
                           "parameters": [
-                            "WheatPlant",
+                            "CornPlant",
                             "Animation"
                           ]
                         }
@@ -20105,7 +20105,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "WheatPlant",
+                            "CornPlant",
                             "",
                             "",
                             ""
@@ -20113,25 +20113,11 @@
                         },
                         {
                           "type": {
-                            "value": "CollisionNP"
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                           },
                           "parameters": [
-                            "Character",
-                            "Plot",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Plot",
-                            "State",
-                            "=",
-                            "\"Grown\""
+                            "CornPlant",
+                            "Animation"
                           ]
                         }
                       ],
@@ -20150,7 +20136,17 @@
                             "value": "PickNearest"
                           },
                           "parameters": [
-                            "WheatPlant",
+                            "CornPlant",
+                            "Character.X()",
+                            "Character.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Plot",
                             "Character.X()",
                             "Character.Y()"
                           ]
@@ -20160,7 +20156,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "WheatPlant",
+                            "CornPlant",
                             ""
                           ]
                         },
@@ -20371,44 +20367,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "WheatPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "WheatPlant",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "WheatPlant.X()",
-                    "WheatPlant.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -20418,6 +20376,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tomato",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20778,25 +20737,11 @@
                         },
                         {
                           "type": {
-                            "value": "CollisionNP"
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                           },
                           "parameters": [
-                            "Character",
-                            "Plot",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Plot",
-                            "State",
-                            "=",
-                            "\"Grown\""
+                            "tomatoPlant",
+                            "Animation"
                           ]
                         }
                       ],
@@ -20816,6 +20761,16 @@
                           },
                           "parameters": [
                             "tomatoPlant",
+                            "Character.X()",
+                            "Character.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Plot",
                             "Character.X()",
                             "Character.Y()"
                           ]
@@ -21036,44 +20991,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "tomatoPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "tomatoPlant",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "tomatoPlant.X()",
-                    "tomatoPlant.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -21083,7 +21000,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Wheat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21445,25 +21361,11 @@
                         },
                         {
                           "type": {
-                            "value": "CollisionNP"
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                           },
                           "parameters": [
-                            "Character",
-                            "Plot",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Plot",
-                            "State",
-                            "=",
-                            "\"Grown\""
+                            "WheatPlant",
+                            "Animation"
                           ]
                         }
                       ],
@@ -21483,6 +21385,16 @@
                           },
                           "parameters": [
                             "WheatPlant",
+                            "Character.X()",
+                            "Character.Y()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PickNearest"
+                          },
+                          "parameters": [
+                            "Plot",
                             "Character.X()",
                             "Character.Y()"
                           ]
@@ -21598,7 +21510,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "WateringCan is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21624,7 +21535,7 @@
                       },
                       "parameters": [
                         "Character",
-                        "tomatoPlant",
+                        "CornPlant",
                         "",
                         "",
                         ""
@@ -21653,7 +21564,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                           },
                           "parameters": [
-                            "tomatoPlant",
+                            "CornPlant",
                             "Animation"
                           ]
                         },
@@ -21691,7 +21602,7 @@
                             "value": "SetBooleanObjectVariable"
                           },
                           "parameters": [
-                            "tomatoPlant",
+                            "CornPlant",
                             "NeedsWater",
                             "False",
                             ""
@@ -21703,44 +21614,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "WheatPlant",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "WheatPlant",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PickNearest"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "WheatPlant.X()",
-                    "WheatPlant.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringObjectVariable"
-                  },
-                  "parameters": [
-                    "Plot",
-                    "State",
-                    "=",
-                    "\"Grown\""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -22865,6 +22738,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tool Animations",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
