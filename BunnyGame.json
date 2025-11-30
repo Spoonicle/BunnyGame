@@ -16387,12 +16387,12 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "CornSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -16973,6 +16973,44 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Corn2",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Corn2",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "Corn2.X()",
+                    "Corn2.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -17484,6 +17522,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "WateringCan is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17576,6 +17615,44 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "tomatoPlant",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "tomatoPlant",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "tomatoPlant.X()",
+                    "tomatoPlant.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -18338,44 +18415,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "Corn2",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-              },
-              "parameters": [
-                "Corn2",
-                "Animation"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "Plot",
-                "Corn2.X()",
-                "Corn2.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Plot",
-                "State",
-                "=",
-                "\"Grown\""
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
