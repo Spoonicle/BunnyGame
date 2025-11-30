@@ -3502,6 +3502,614 @@
         "name": "NewSprite53",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed5.png\"}",
+        "name": "HoldTomatoSeed5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed6.png\"}",
+        "name": "HoldTomatoSeed6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed7.png\"}",
+        "name": "HoldTomatoSeed7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed8.png\"}",
+        "name": "HoldTomatoSeed8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed9.png\"}",
+        "name": "HoldTomatoSeed9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed10.png\"}",
+        "name": "HoldTomatoSeed10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed11.png\"}",
+        "name": "HoldTomatoSeed11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed12.png\"}",
+        "name": "HoldTomatoSeed12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed13.png\"}",
+        "name": "HoldTomatoSeed13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed14.png\"}",
+        "name": "HoldTomatoSeed14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed15.png\"}",
+        "name": "HoldTomatoSeed15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed16.png\"}",
+        "name": "HoldTomatoSeed16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed17.png\"}",
+        "name": "HoldTomatoSeed17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed18.png\"}",
+        "name": "HoldTomatoSeed18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed19.png\"}",
+        "name": "HoldTomatoSeed19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed20.png\"}",
+        "name": "HoldTomatoSeed20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed21.png\"}",
+        "name": "HoldTomatoSeed21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed22.png\"}",
+        "name": "HoldTomatoSeed22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed23.png\"}",
+        "name": "HoldTomatoSeed23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/HoldTomatoSeed24.png\"}",
+        "name": "HoldTomatoSeed24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Character30.png\"}",
+        "name": "Character9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/HoldTomatoSeed44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "HoldTomatoSeed44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Character40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Character40",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13013,7 +13621,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"HoldTomato\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":20,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAABACAYAAABFhNo8AAAAAXNSR0IArs4c6QAACgFJREFUeF7t3TFrJVUUB/C3hYWIgiBBFlbBLQUba8HSQvwE28s2VkEQkUVEBLGyEft8gsXC3loLv4ErBFkEK7GwUO7M3rx58+Ylr7hJZv7zS6ObhM3e3zn33DNn5r3c2fggQIAAAQIECBAgQIAAAQIECBAgQCBW4E7syiyMAAECBAgQIECAAAECBAgQIECAAIGNAaAkIECAAAECBAgQIECAAAECBAgQIBAsYAAYHFxLI0CAAAECBAgQIECAAAECBAgQIGAAKAcIECBAgAABAgQIECBAgAABAgQIBAsYAAYH19IIECBAgAABAgQIECBAgAABAgQIGADKAQIECBAgQIAAAQIECBAgQIAAAQLBAgaAwcG1NAIECBAgQIAAAQIECBAgQIAAAQIGgHKAAAECBAgQIECAAAECBAgQIECAQLCAAWBwcC2NAAECBAgQIECAAAECBAgQIECAgAGgHCBAgAABAgQIECBAgAABAgQIECAQLGAAGBxcSyNAgAABAgQIECBAgAABAgQIECBgACgHCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECTQeADz749r9Kevb4o52/+7KvpYTB+sVf/vcC9r/6N6zr6v/h2uj8yxBw/jv/13r+D3N/6vwvn0s+A6x/u/fFf7//lf/2v/qX2wMvtf43GwAWgO/O3rro5B8++PViCHDZ1zJa/764Wb/413yW//Z/HYKqf4dro/qfIeD8c/7rf9bZ/0zt/amqdig/ll4BrX+/9on/voD8n66P9v+yBdS/5da/pgPAbz6822XyC++8sikDkOFHKX5///Rn96nT78/3nhBa9hboB4DWL/7y3/5X/9R/55/zX/+zFdD/5fa/4963RP3p76/ttPQn9550f068BrD+3Wsf8Zf/9r/6NzwA1P95nn/XNgCcKgCJh39N8nETYP37BVD81zMAl//yf9wA2P/2/1puAKp/6t9a6p8BmAHY8OEHA0ADQANAA0ADwK3AXAegTQeAw0ecDxWAQjJ8eeTSn/wbDgCtf/uIt/hPHwDy3/5X/7YvD1f/MwTGLwNR/9X/qQsA55/zz/nn/Bu/R/TST0Hn3+7LIJ3/zn/n//4AcG79jwFgo5PHAeAAMAA2AK7lRAOkAdIAzb8BanT8770HsP1v/69l/9c3QB/2P5ftq/r2CClDIOvv39xf/Lf9r/w/LGD/92+Pov7t/qLEVr3YTf89S67/TQaASwZokSzWrwHQAGkANcAa4GPOEw2wBtgFgAuglAvAksv1BnipbYfOwfq15CcArV/85f90H2j/93tD/ct9Anpp9b/JAFADoAHSAPZPQC6tABwzsDjme8Rf/OW//a/+uQB2AbyuC2A3wN0AdwPcDXA3wN0AP+Za0Q3w+dwAbzIA1ABoADQAGgANgAZAA3C1gAZoPg3Q1dG6+jv0P/qfNfc/Fw8AfP12v1nu/ju9ac6f6z7/8OOfY17+Vhfa3QC1fvGX//a/+qf+TwnM8PxrMgDUADx7AlADoAHQAGgANAAagIU0AFePt477DhfABgAGIOsdgNVrgK79ef3VyaJx/tsf3eeTXvo8XGi9EWD94j95/Mt/+1/9U/8fz+e9D5sNADUA/RBQA6QB1ABqADWA+wIuAF0AGwAYgBgAzecC4Ljx/vHfVXrg2v+cnv6yef7l9zZffPq0+wtK/U+N/fBJQOvv+z/xl//2v/qn/s/3/Gs2ACwH/+dfvb85uffk4sAfHwCffXmyefGld5v9zOPbkuv/TusXf/lv/6t/6n9teJx/uxdAzn/9j/4vs/+tDwDUHqj8+Z+/fuwa7zIEKB/lN2Pff/ONyP7f+vsHIMS/74Hlv/2v/qn/cz//mh3G4+I/VQDL59bQANZx47gAWL/4y//MCyD1b7f5V//3G2D1X/1X/9X/678dfTs/YeoMHP5L1jYAHEfB+tc1ABb/XQH5L//XdANoCfu/2QCw3gEr/z30ywBSm9/h4//WL/7yf/qXYdj/mRe/6l8vcNUvg5D/8v92RjM381Pl/+W/DCV9/9cauNb+x/qfvRf62Tr7P/EX/+69kOX/ZMPh/Jtf/9t0ADh8DL78/6NPfugSoTwWXv+8hvcAGa7X+sVf/tv/6l9/Hqj/ue//5fzfvgxO/6P/0//q//X/+n/9v/5f/6//n+P1T/MB4PBJiHqxV+8Mp1/8jZ+Esf7+Ylf8+ycD5H/28MP+330STv1T/9R/55/z3/mv/9H/6X/1vzfzLPrt/pTxeef8c/7N9fy7lgHg7W4/P50AAQIECBAgQIAAAQIECBAgQIAAgSpgACgXCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECBoBygAABAgQIECBAgAABAgQIECBAgECwgAFgcHAtjQABAgQIECBAgAABAgQIECBAgIABoBwgQIAAAQIECBAgQIAAAQIECBAgECxgABgcXEsjQIAAAQIECBAgQIAAAQIECBAgYAAoBwgQIECAAAECBAgQIECAAAECBAgECxgABgfX0ggQIECAAAECBAgQIECAAAECBAgYAMoBAgQIECBAgAABAgQIECBAgAABAsECBoDBwbU0AgQIECBAgAABAgQIECBAgAABAgaAcoAAAQIECBAgQIAAAQIECBAgQIBAsIABYHBwLY0AAQIECBAgQIAAAQIECBAgQICAAaAcIECAAAECBAgQIECAAAECBAgQIBAsYAAYHFxLI0CAAAECBAgQIECAAAECBAgQIGAAKAcIECBAgAABAgQIECBAgAABAgQIBAsYAAYH19IIECBAgAABAgQIECBAgAABAgQIGADKAQIECBAgQIAAAQIECBAgQIAAAQLBAgaAwcG1NAIECBAgQIAAAQIECBAgQIAAAQIGgHKAAAECBAgQIECAAAECBAgQIECAQLCAAWBwcC2NAAECBAgQIECAAAECBAgQIECAgAGgHCBAgAABAgQIECBAgAABAgQIECAQLGAAGBxcSyNAgAABAgQIECBAgAABAgQIECBgACgHCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECBoBygAABAgQIECBAgAABAgQIECBAgECwgAFgcHAtjQABAgQIECBAgAABAgQIECBAgIABoBwgQIAAAQIECBAgQIAAAQIECBAgECzwP0hwxOZBLER9AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":20,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAABACAYAAABFhNo8AAAAAXNSR0IArs4c6QAAB3JJREFUeF7t2zFKZUEQBdCWyRTcw6SDsSIIbsAFCBO4Bc1cgpnmJoqJTDouQRATNyAYqWCkGA4MylNMXED3o+5xA+/XqX5d9S/fheaPAAECBAgQIECAAAECBAgQIECAAIGyAgtlK1MYAQIECBAgQIAAAQIECBAgQIAAAQJNAOgQECBAgAABAgQIECBAgAABAgQIECgsIAAs3FylESBAgAABAgQIECBAgAABAgQIEBAAOgMECBAgQIAAAQIECBAgQIAAAQIECgsIAAs3V2kECBAgQIAAAQIECBAgQIAAAQIEBIDOAAECBAgQIECAAAECBAgQIECAAIHCAgLAws1VGgECBAgQIECAAAECBAgQIECAAAEBoDNAgAABAgQIECBAgAABAgQIECBAoLCAALBwc5VGgAABAgQIECBAgAABAgQIECBAQADoDBAgQIAAAQIECBAgQIAAAQIECBAoLCAALNxcpREgQIAAAQIECBAgQIAAAQIECBAQADoDBAgQIECAAAECBAgQIECAAAECBAoLCAALN1dpBAgQIECAAAECBAgQIECAAAECBASAzgABAgQIECBAgAABAgQIECBAgACBwgICwMLNVRoBAgQIECBAgAABAgQIECBAgAABAaAzQIAAAQIECBAgQIAAAQIECBAgQKCwgACwcHOVRoAAAQIECBAgQIAAAQIECBAgQEAA6AwQIECAAAECBAgQIECAAAECBAgQKCwgACzcXKURIECAAAECBAgQIECAAAECBAgQEAA6AwQIECBAgAABAgQIECBAgAABAgQKCwgACzdXaQQIECBAgAABAgQIECBAgAABAgQEgM4AAQIECBAgQIAAAQIECBAgQIAAgcICAsDCzVUaAQIECBAgQIAAAQIECBAgQIAAAQGgM0CAAAECBAgQIECAAAECBAgQIECgsMCQAHD/dPttMj3YOR/y/NH9VL/+O//ef/ef+3/0LBrxfPPP/DP/zD/zz/wbMX9GP9P8M//MP/NvDvOvewA3XX4rP5fa0/O/dn3xo/05Pun+GUYOAPXrv/Pv/Xf/uf/NP/Pf/mP/G7mP9n62/df+a/+1/9p/7b/23/H7b/fw7ez37sev//4uvrS1rf9xIaD69d/59/67/9z/5p/5n7YE23/sP/Yf+4/9x/5j/7H/2H/GhoBdA8Bp+Vvd/NXub+/bxeVre1h5ifoFoPr13/n3/rv/3P/mn/lv/7H/Jf0C1P5r/7X/2n/tv/Zf++889t+uAeDe+u7b1sZye3x8bTd3rR1eHXV9fu9/d/j+PPXrv/Pv/Xf/uf/NP/Pf/mP/G72T9ny+/df+a/+1/9p/7b/233nsv90DuGkJmJaOtOX3a9FSv/47/95/91/Wl3/3/6eA+Wf+mX/mn/ln/vUMn+fyLPPP/DP/zL+5zL/uAeBcLmKfgwABAgQIECBAgAABAgQIECBAgECCgAAwoctqJECAAAECBAgQIECAAAECBAgQiBUQAMa2XuEECBAgQIAAAQIECBAgQIAAAQIJAgLAhC6rkQABAgQIECBAgAABAgQIECBAIFZAABjbeoUTIECAAAECBAgQIECAAAECBAgkCAgAE7qsRgIECBAgQIAAAQIECBAgQIAAgVgBAWBs6xVOgAABAgQIECBAgAABAgQIECCQICAATOiyGgkQIECAAAECBAgQIECAAAECBGIFBICxrVc4AQIECBAgQIAAAQIECBAgQIBAgoAAMKHLaiRAgAABAgQIECBAgAABAgQIEIgVEADGtl7hBAgQIECAAAECBAgQIECAAAECCQICwIQuq5EAAQIECBAgQIAAAQIECBAgQCBWQAAY23qFEyBAgAABAgQIECBAgAABAgQIJAgIABO6rEYCBAgQIECAAAECBAgQIECAAIFYAQFgbOsVToAAAQIECBAgQIAAAQIECBAgkCAgAEzoshoJECBAgAABAgQIECBAgAABAgRiBQSAsa1XOAECBAgQIECAAAECBAgQIECAQIKAADChy2okQIAAAQIECBAgQIAAAQIECBCIFRAAxrZe4QQIECBAgAABAgQIECBAgAABAgkCAsCELquRAAECBAgQIECAAAECBAgQIEAgVkAAGNt6hRMgQIAAAQIECBAgQIAAAQIECCQICAATuqxGAgQIECBAgAABAgQIECBAgACBWAEBYGzrFU6AAAECBAgQIECAAAECBAgQIJAgIABM6LIaCRAgQIAAAQIECBAgQIAAAQIEYgUEgLGtVzgBAgQIECBAgAABAgQIECBAgECCgAAwoctqJECAAAECBAgQIECAAAECBAgQiBUQAMa2XuEECBAgQIAAAQIECBAgQIAAAQIJAgLAhC6rkQABAgQIECBAgAABAgQIECBAIFZAABjbeoUTIECAAAECBAgQIECAAAECBAgkCAgAE7qsRgIECBAgQIAAAQIECBAgQIAAgVgBAWBs6xVOgAABAgQIECBAgAABAgQIECCQICAATOiyGgkQIECAAAECBAgQIECAAAECBGIFBICxrVc4AQIECBAgQIAAAQIECBAgQIBAgsA7ulesbi9wtGgAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"HoldTomato3\",\"HoldTomato4\",\"HoldTomato5\",\"HoldTomato6\",\"HoldTomato7\",\"HoldTomato8\",\"HoldTomato9\",\"HoldTomato10\",\"HoldTomato11\",\"HoldTomato12\",\"HoldTomato13\",\"HoldTomato14\",\"HoldTomato15\",\"HoldTomato16\",\"HoldTomato17\",\"HoldTomato18\",\"HoldTomato19\",\"HoldTomato20\",\"HoldTomato21\",\"HoldTomato22\"],\"name\":\"HoldTomato\"}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -13704,6 +14312,1472 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "HoldTomato22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HoldTomatoSeed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"HoldTomatoSeed\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":20,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAABACAYAAABFhNo8AAAAAXNSR0IArs4c6QAACgFJREFUeF7t3TFrJVUUB/C3hYWIgiBBFlbBLQUba8HSQvwE28s2VkEQkUVEBLGyEft8gsXC3loLv4ErBFkEK7GwUO7M3rx58+Ylr7hJZv7zS6ObhM3e3zn33DNn5r3c2fggQIAAAQIECBAgQIAAAQIECBAgQCBW4E7syiyMAAECBAgQIECAAAECBAgQIECAAIGNAaAkIECAAAECBAgQIECAAAECBAgQIBAsYAAYHFxLI0CAAAECBAgQIECAAAECBAgQIGAAKAcIECBAgAABAgQIECBAgAABAgQIBAsYAAYH19IIECBAgAABAgQIECBAgAABAgQIGADKAQIECBAgQIAAAQIECBAgQIAAAQLBAgaAwcG1NAIECBAgQIAAAQIECBAgQIAAAQIGgHKAAAECBAgQIECAAAECBAgQIECAQLCAAWBwcC2NAAECBAgQIECAAAECBAgQIECAgAGgHCBAgAABAgQIECBAgAABAgQIECAQLGAAGBxcSyNAgAABAgQIECBAgAABAgQIECBgACgHCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECTQeADz749r9Kevb4o52/+7KvpYTB+sVf/vcC9r/6N6zr6v/h2uj8yxBw/jv/13r+D3N/6vwvn0s+A6x/u/fFf7//lf/2v/qX2wMvtf43GwAWgO/O3rro5B8++PViCHDZ1zJa/764Wb/413yW//Z/HYKqf4dro/qfIeD8c/7rf9bZ/0zt/amqdig/ll4BrX+/9on/voD8n66P9v+yBdS/5da/pgPAbz6822XyC++8sikDkOFHKX5///Rn96nT78/3nhBa9hboB4DWL/7y3/5X/9R/55/zX/+zFdD/5fa/4963RP3p76/ttPQn9550f068BrD+3Wsf8Zf/9r/6NzwA1P95nn/XNgCcKgCJh39N8nETYP37BVD81zMAl//yf9wA2P/2/1puAKp/6t9a6p8BmAHY8OEHA0ADQANAA0ADwK3AXAegTQeAw0ecDxWAQjJ8eeTSn/wbDgCtf/uIt/hPHwDy3/5X/7YvD1f/MwTGLwNR/9X/qQsA55/zz/nn/Bu/R/TST0Hn3+7LIJ3/zn/n//4AcG79jwFgo5PHAeAAMAA2AK7lRAOkAdIAzb8BanT8770HsP1v/69l/9c3QB/2P5ftq/r2CClDIOvv39xf/Lf9r/w/LGD/92+Pov7t/qLEVr3YTf89S67/TQaASwZokSzWrwHQAGkANcAa4GPOEw2wBtgFgAuglAvAksv1BnipbYfOwfq15CcArV/85f90H2j/93tD/ct9Anpp9b/JAFADoAHSAPZPQC6tABwzsDjme8Rf/OW//a/+uQB2AbyuC2A3wN0AdwPcDXA3wN0AP+Za0Q3w+dwAbzIA1ABoADQAGgANgAZAA3C1gAZoPg3Q1dG6+jv0P/qfNfc/Fw8AfP12v1nu/ju9ac6f6z7/8OOfY17+Vhfa3QC1fvGX//a/+qf+TwnM8PxrMgDUADx7AlADoAHQAGgANAAagIU0AFePt477DhfABgAGIOsdgNVrgK79ef3VyaJx/tsf3eeTXvo8XGi9EWD94j95/Mt/+1/9U/8fz+e9D5sNADUA/RBQA6QB1ABqADWA+wIuAF0AGwAYgBgAzecC4Ljx/vHfVXrg2v+cnv6yef7l9zZffPq0+wtK/U+N/fBJQOvv+z/xl//2v/qn/s/3/Gs2ACwH/+dfvb85uffk4sAfHwCffXmyefGld5v9zOPbkuv/TusXf/lv/6t/6n9teJx/uxdAzn/9j/4vs/+tDwDUHqj8+Z+/fuwa7zIEKB/lN2Pff/ONyP7f+vsHIMS/74Hlv/2v/qn/cz//mh3G4+I/VQDL59bQANZx47gAWL/4y//MCyD1b7f5V//3G2D1X/1X/9X/678dfTs/YeoMHP5L1jYAHEfB+tc1ABb/XQH5L//XdANoCfu/2QCw3gEr/z30ywBSm9/h4//WL/7yf/qXYdj/mRe/6l8vcNUvg5D/8v92RjM381Pl/+W/DCV9/9cauNb+x/qfvRf62Tr7P/EX/+69kOX/ZMPh/Jtf/9t0ADh8DL78/6NPfugSoTwWXv+8hvcAGa7X+sVf/tv/6l9/Hqj/ue//5fzfvgxO/6P/0//q//X/+n/9v/5f/6//n+P1T/MB4PBJiHqxV+8Mp1/8jZ+Esf7+Ylf8+ycD5H/28MP+330STv1T/9R/55/z3/mv/9H/6X/1vzfzLPrt/pTxeef8c/7N9fy7lgHg7W4/P50AAQIECBAgQIAAAQIECBAgQIAAgSpgACgXCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECBoBygAABAgQIECBAgAABAgQIECBAgECwgAFgcHAtjQABAgQIECBAgAABAgQIECBAgIABoBwgQIAAAQIECBAgQIAAAQIECBAgECxgABgcXEsjQIAAAQIECBAgQIAAAQIECBAgYAAoBwgQIECAAAECBAgQIECAAAECBAgECxgABgfX0ggQIECAAAECBAgQIECAAAECBAgYAMoBAgQIECBAgAABAgQIECBAgAABAsECBoDBwbU0AgQIECBAgAABAgQIECBAgAABAgaAcoAAAQIECBAgQIAAAQIECBAgQIBAsIABYHBwLY0AAQIECBAgQIAAAQIECBAgQICAAaAcIECAAAECBAgQIECAAAECBAgQIBAsYAAYHFxLI0CAAAECBAgQIECAAAECBAgQIGAAKAcIECBAgAABAgQIECBAgAABAgQIBAsYAAYH19IIECBAgAABAgQIECBAgAABAgQIGADKAQIECBAgQIAAAQIECBAgQIAAAQLBAgaAwcG1NAIECBAgQIAAAQIECBAgQIAAAQIGgHKAAAECBAgQIECAAAECBAgQIECAQLCAAWBwcC2NAAECBAgQIECAAAECBAgQIECAgAGgHCBAgAABAgQIECBAgAABAgQIECAQLGAAGBxcSyNAgAABAgQIECBAgAABAgQIECBgACgHCBAgQIAAAQIECBAgQIAAAQIECAQLGAAGB9fSCBAgQIAAAQIECBAgQIAAAQIECBgAygECBAgQIECAAAECBAgQIECAAAECwQIGgMHBtTQCBAgQIECAAAECBAgQIECAAAECBoBygAABAgQIECBAgAABAgQIECBAgECwgAFgcHAtjQABAgQIECBAgAABAgQIECBAgIABoBwgQIAAAQIECBAgQIAAAQIECBAgECzwP0hwxOZBLER9AAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":20,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10],[11],[12],[13],[14],[15],[16],[17],[18],[19]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAABACAYAAABFhNo8AAAAAXNSR0IArs4c6QAAB0hJREFUeF7t3LFtVEEUheHnEImAagjpgNQSAQRUQIocI1JL5AQQgGiAHugAWiEwWj09Z6SzT/f/aGB9vjs7c31kcbP5R4AAAQIECBAgQIAAAQIECBAgQIDAWIGbsckEI0CAAAECBAgQIECAAAECBAgQIEBgUwA6BAQIECBAgAABAgQIECBAgAABAgQGCygABw9XNAIECBAgQIAAAQIECBAgQIAAAQIKQGeAAAECBAgQIECAAAECBAgQIECAwGABBeDg4YpGgAABAgQIECBAgAABAgQIECBAQAHoDBAgQIAAAQIECBAgQIAAAQIECBAYLKAAHDxc0QgQIECAAAECBAgQIECAAAECBAgoAJ0BAgQIECBAgAABAgQIECBAgAABAoMFFICDhysaAQIECBAgQIAAAQIECBAgQIAAAQWgM0CAAAECBAgQIECAAAECBAgQIEBgsIACcPBwRSNAgAABAgQIECBAgAABAgQIECCgAHQGCBAgQIAAAQIECBAgQIAAAQIECAwWUAAOHq5oBAgQIECAAAECBAgQIECAAAECBBSAzgABAgQIECBAgAABAgQIECBAgACBwQIKwMHDFY0AAQIECBAgQIAAAQIECBAgQICAAtAZIECAAAECBAgQIECAAAECBAgQIDBYQAE4eLiiESBAgAABAgQIECBAgAABAgQIEFAAOgMECBAgQIAAAQIECBAgQIAAAQIEBgsoAAcPVzQCBAgQIECAAAECBAgQIECAAAECCkBngAABAgQIECBAgAABAgQIECBAgMBgAQXg4OGKRoAAAQIECBAgQIAAAQIECBAgQEAB6AwQIECAAAECBAgQIECAAAECBAgQGCygABw8XNEIECBAgAABAgQIECBAgAABAgQIKACdAQIECBAgQIAAAQIECBAgQIAAAQKDBZYWgD/ev3o4LG8/flv62WeYofzm7/zvAr7/7r8z3Mkrfwb3v/vf/e/+9/55/+0/9p+Vu8cZPsv+Y/+x/5xr/1lWwl2+/E+fPXm8h/78/ru9+/x12edf+wKU3/ydf9//4x5y/7n/vX/e/2vvJas+3/5j/7H/2H/sP7uA/c/+Z/+z/63av/73OcsKuMsC+OL25fbl7tf25sPz7funn7kCUH7zd/59/91/7n/vn/e/9guA/cf+Y/+x/9h/7D/2H/uP/ef6BejyAvBoIqsXgPy7gPk3HwDn3/n3/Xf/uf/d/8VfALx/3j/vn/fP++f98/5dvwBb9Rd4xx/Ane39X1YAXoLfv339+H8Alg7/MXT5zf84C85/5/L3/d8F3H/uP/ffLuD+d/+v+uXjLJ/j/nf/u//d/94/77/95xz7z9IC8CyLiJ+DAAECBAgQIECAAAECBAgQIECAQEVAAViZtJwECBAgQIAAAQIECBAgQIAAAQJJAQVgcuxCEyBAgAABAgQIECBAgAABAgQIVAQUgJVJy0mAAAECBAgQIECAAAECBAgQIJAUUAAmxy40AQIECBAgQIAAAQIECBAgQIBARUABWJm0nAQIECBAgAABAgQIECBAgAABAkkBBWBy7EITIECAAAECBAgQIECAAAECBAhUBBSAlUnLSYAAAQIECBAgQIAAAQIECBAgkBRQACbHLjQBAgQIECBAgAABAgQIECBAgEBFQAFYmbScBAgQIECAAAECBAgQIECAAAECSQEFYHLsQhMgQIAAAQIECBAgQIAAAQIECFQEFICVSctJgAABAgQIECBAgAABAgQIECCQFFAAJscuNAECBAgQIECAAAECBAgQIECAQEVAAViZtJwECBAgQIAAAQIECBAgQIAAAQJJAQVgcuxCEyBAgAABAgQIECBAgAABAgQIVAQUgJVJy0mAAAECBAgQIECAAAECBAgQIJAUUAAmxy40AQIECBAgQIAAAQIECBAgQIBARUABWJm0nAQIECBAgAABAgQIECBAgAABAkkBBWBy7EITIECAAAECBAgQIECAAAECBAhUBBSAlUnLSYAAAQIECBAgQIAAAQIECBAgkBRQACbHLjQBAgQIECBAgAABAgQIECBAgEBFQAFYmbScBAgQIECAAAECBAgQIECAAAECSQEFYHLsQhMgQIAAAQIECBAgQIAAAQIECFQEFICVSctJgAABAgQIECBAgAABAgQIECCQFFAAJscuNAECBAgQIECAAAECBAgQIECAQEVAAViZtJwECBAgQIAAAQIECBAgQIAAAQJJAQVgcuxCEyBAgAABAgQIECBAgAABAgQIVAQUgJVJy0mAAAECBAgQIECAAAECBAgQIJAUUAAmxy40AQIECBAgQIAAAQIECBAgQIBARUABWJm0nAQIECBAgAABAgQIECBAgAABAkkBBWBy7EITIECAAAECBAgQIECAAAECBAhUBBSAlUnLSYAAAQIECBAgQIAAAQIECBAgkBRQACbHLjQBAgQIECBAgAABAgQIECBAgEBFQAFYmbScBAgQIECAAAECBAgQIECAAAECSYF/yiSAX/MIi5kAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"HoldTomatoSeed25\",\"HoldTomatoSeed26\",\"HoldTomatoSeed27\",\"HoldTomatoSeed28\",\"HoldTomatoSeed29\",\"HoldTomatoSeed30\",\"HoldTomatoSeed31\",\"HoldTomatoSeed32\",\"HoldTomatoSeed33\",\"HoldTomatoSeed34\",\"HoldTomatoSeed35\",\"HoldTomatoSeed36\",\"HoldTomatoSeed37\",\"HoldTomatoSeed38\",\"HoldTomatoSeed39\",\"HoldTomatoSeed40\",\"HoldTomatoSeed41\",\"HoldTomatoSeed42\",\"HoldTomatoSeed43\",\"HoldTomatoSeed44\"],\"name\":\"HoldTomatoSeed\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed26",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed27",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed28",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed29",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed30",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed31",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed32",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed33",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed34",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed35",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed36",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed37",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed38",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed39",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed40",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed41",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed42",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed43",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HoldTomatoSeed44",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "HoldCornSeed",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character23",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character24",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character26",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character27",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character28",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character29",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character30",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character31",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character32",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character33",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character34",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character35",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character36",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character37",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character38",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character39",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 16
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 17,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Character40",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16899,6 +18973,18 @@
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "Corn2",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -17029,6 +19115,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "TomatoSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17536,6 +19623,18 @@
                       "parameters": [
                         "Character",
                         "Water",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Character",
+                        "tomatoPlant",
                         "",
                         "",
                         ""
@@ -18068,6 +20167,16 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
+                    "Inventory.Materials.TomatoSeed",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
                     "Inventory.Materials.Corn",
                     "=",
                     "0"
@@ -18420,6 +20529,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tool Selection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18765,179 +20875,265 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tool Animations",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
-          "events": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"PickAxe\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"PlantDown\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"WateringCan\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "9"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"Axe\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"PlantUp\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"Corn\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldCorn\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"Tomato\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldTomato\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"Wheat\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldWheat\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"WheatSeed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldWheat\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"TomatoSeed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldTomatoSeed\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentTool",
+                    "=",
+                    "\"CornSeed\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Animation",
+                    "=",
+                    "\"HoldCorn\""
+                  ]
+                }
+              ]
+            }
+          ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"PickAxe\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"PlantDown\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"WateringCan\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "9"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Axe\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"PlantUp\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Corn\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"HoldCorn\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Tomato\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"HoldTomato\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "CurrentTool",
-                "=",
-                "\"Wheat\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Character",
-                "Animation",
-                "=",
-                "\"HoldWheat\""
-              ]
-            }
-          ]
         },
         {
           "colorB": 228,
