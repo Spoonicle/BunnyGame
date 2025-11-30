@@ -19752,7 +19752,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Corn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19762,7 +19761,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "CornSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -19858,8 +19856,8 @@
                           "parameters": [
                             "",
                             "CornPlant",
-                            "Plot.X()",
-                            "Plot.Y()\n",
+                            "Plot.X()+15",
+                            "Plot.Y()+15\n",
                             ""
                           ]
                         },
@@ -19892,8 +19890,8 @@
                           "parameters": [
                             "",
                             "Water",
-                            "CornPlant.X() + 1",
-                            "CornPlant.Y() + 1",
+                            "CornPlant.X()-15",
+                            "CornPlant.Y() -15",
                             ""
                           ]
                         },
@@ -20377,7 +20375,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tomato",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20483,8 +20480,8 @@
                           "parameters": [
                             "",
                             "tomatoPlant",
-                            "Plot.X()",
-                            "Plot.Y()\n",
+                            "Plot.X()+15",
+                            "Plot.Y()+15\n",
                             ""
                           ]
                         },
@@ -20517,8 +20514,8 @@
                           "parameters": [
                             "",
                             "Water",
-                            "tomatoPlant.X()+1",
-                            "tomatoPlant.Y()+1",
+                            "tomatoPlant.X()-15",
+                            "tomatoPlant.Y()-15",
                             ""
                           ]
                         },
@@ -20701,6 +20698,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Axe is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21011,7 +21009,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "WheatSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21107,8 +21104,8 @@
                           "parameters": [
                             "",
                             "WheatPlant",
-                            "Plot.X()",
-                            "Plot.Y()\n",
+                            "Plot.X()+15",
+                            "Plot.Y()+15\n",
                             ""
                           ]
                         },
@@ -21141,8 +21138,8 @@
                           "parameters": [
                             "",
                             "Water",
-                            "WheatPlant.X()+1",
-                            "WheatPlant.Y()+1",
+                            "WheatPlant.X()-15",
+                            "WheatPlant.Y()-15",
                             ""
                           ]
                         },
