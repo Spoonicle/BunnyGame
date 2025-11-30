@@ -3470,6 +3470,38 @@
         "name": "HoldTomato22",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite53",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5354,7 +5386,12 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "Carrots",
+              "name": "Tomato",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Wheat",
               "type": "number",
               "value": 0
             },
@@ -15852,6 +15889,186 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "tomatoPlant",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "GrowthTimer",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "NeedsWater",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite50",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 6,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite51",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 6,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite52",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 6,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite53",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 10
+                          },
+                          {
+                            "x": 11,
+                            "y": 15
+                          },
+                          {
+                            "x": 6,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -15923,6 +16140,9 @@
           },
           {
             "objectName": "Corn2"
+          },
+          {
+            "objectName": "tomatoPlant"
           },
           {
             "objectName": "carrot"
@@ -16167,7 +16387,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "CornSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16468,34 +16687,6 @@
                             "Inventory.Materials.Corn",
                             "-",
                             "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Corn2",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Corn2",
-                            "NeedsWater",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                          },
-                          "parameters": [
-                            "Corn2",
-                            "Animation"
                           ]
                         }
                       ]
@@ -16800,6 +16991,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "TomatoSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16851,7 +17043,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.CornSeed",
+                            "Inventory.Materials.TomatoSeed",
                             ">",
                             "0"
                           ]
@@ -16894,7 +17086,7 @@
                           },
                           "parameters": [
                             "",
-                            "Corn2",
+                            "tomatoPlant",
                             "Plot.X()",
                             "Plot.Y()\n",
                             ""
@@ -16916,7 +17108,7 @@
                             "value": "SetBooleanObjectVariable"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "NeedsWater",
                             "True",
                             "\"Planted\""
@@ -16929,8 +17121,8 @@
                           "parameters": [
                             "",
                             "Water",
-                            "Corn2.X()+1",
-                            "Corn2.Y()+1",
+                            "tomatoPlant.X()+1",
+                            "tomatoPlant.Y()+1",
                             ""
                           ]
                         },
@@ -16951,7 +17143,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.CornSeed",
+                            "Inventory.Materials.TomatoSeed",
                             "-",
                             "1"
                           ]
@@ -16960,14 +17152,14 @@
                     },
                     {
                       "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Corn2",
+                      "object": "tomatoPlant",
                       "conditions": [
                         {
                           "type": {
                             "value": "BooleanObjectVariable"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "NeedsWater",
                             "True",
                             ""
@@ -16980,7 +17172,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "Animation"
                           ]
                         }
@@ -16997,7 +17189,7 @@
               "colorR": 74,
               "creationTime": 0,
               "folded": true,
-              "name": "Corn is Pressed",
+              "name": "Tomato is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -17011,7 +17203,7 @@
                       "parameters": [
                         "CurrentTool",
                         "=",
-                        "\"Corn\""
+                        "\"Tomato\""
                       ]
                     }
                   ],
@@ -17086,7 +17278,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Corn",
+                            "Tomato",
                             "-",
                             "1"
                           ]
@@ -17096,37 +17288,9 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.Corn",
+                            "Inventory.Materials.Tomato",
                             "-",
                             "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::ForEach",
-                      "object": "Corn2",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Corn2",
-                            "NeedsWater",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-                          },
-                          "parameters": [
-                            "Corn2",
-                            "Animation"
                           ]
                         }
                       ]
@@ -17171,7 +17335,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Corn2",
+                            "tomatoPlant",
                             "",
                             "",
                             ""
@@ -17204,7 +17368,7 @@
                             "value": "PickNearest"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "Character.X()",
                             "Character.Y()"
                           ]
@@ -17214,7 +17378,7 @@
                             "value": "Delete"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             ""
                           ]
                         },
@@ -17224,7 +17388,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Corn",
+                            "Tomato",
                             "+",
                             "1"
                           ]
@@ -17235,7 +17399,7 @@
                           },
                           "parameters": [
                             "",
-                            "Corn",
+                            "Tomato",
                             "Character.X()",
                             "Character.Y()",
                             ""
@@ -17257,7 +17421,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.Corn",
+                            "Inventory.Materials.Tomato",
                             "+",
                             "1"
                           ]
@@ -17267,7 +17431,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.CornSeed",
+                            "Inventory.Materials.TomatoSeed",
                             "+",
                             "2"
                           ]
@@ -17283,7 +17447,7 @@
                                 "value": "AddForceXY"
                               },
                               "parameters": [
-                                "Corn",
+                                "Tomato",
                                 "0",
                                 "-50",
                                 "0"
@@ -17302,7 +17466,7 @@
                                 "value": "Delete"
                               },
                               "parameters": [
-                                "Corn",
+                                "Tomato",
                                 ""
                               ]
                             }
@@ -17320,7 +17484,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "WateringCan is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17363,7 +17526,7 @@
                             "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "Animation"
                           ]
                         },
@@ -17401,7 +17564,7 @@
                             "value": "SetBooleanObjectVariable"
                           },
                           "parameters": [
-                            "Corn2",
+                            "tomatoPlant",
                             "NeedsWater",
                             "False",
                             ""
