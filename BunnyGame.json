@@ -5481,9 +5481,13 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< Updated upstream
         "zoomFactor": 0.7747098920451775,
+=======
+        "zoomFactor": 0.5203582091312736,
+>>>>>>> Stashed changes
         "windowMask": false,
-        "selectedLayer": "UI layer"
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [
@@ -5776,8 +5780,8 @@
           "name": "Character",
           "persistentUuid": "b04ac59c-b43b-443f-b211-b154b5e84227",
           "width": 145,
-          "x": 455,
-          "y": 274,
+          "x": 422,
+          "y": 272,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -6291,23 +6295,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 49,
-          "keepRatio": true,
-          "layer": "UI layer",
-          "name": "Bullpause",
-          "persistentUuid": "69d10a4c-6c20-4266-b941-1e2e9137a925",
-          "width": 44,
-          "x": 204,
-          "y": 526,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -6400,12 +6387,54 @@
           "name": "Animal_Start",
           "persistentUuid": "143997b1-6528-48d6-aae3-0f3757b60200",
           "width": 36,
+<<<<<<< Updated upstream
           "x": 345,
           "y": 523,
+=======
+          "x": -106,
+          "y": 553,
+>>>>>>> Stashed changes
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Animal3",
+          "persistentUuid": "3a3c6240-b670-4f67-b3e0-979f33f0a3f1",
+          "width": 123,
+          "x": -166,
+          "y": 508,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bullpause",
+          "persistentUuid": "79c835e0-5ebb-43b7-9c0e-c4ff0addaf3a",
+          "width": 65,
+          "x": 246,
+          "y": 535,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+>>>>>>> Stashed changes
         }
       ],
       "objects": [
@@ -6860,7 +6889,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "5d4869a7e0037cd1702a05c32fbe230ab584a2fff768e96361938d3017a2d2e8",
-          "name": "Bull",
+          "name": "Animal3",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -7211,7 +7240,7 @@
         },
         {
           "assetStoreId": "",
-          "bold": false,
+          "bold": true,
           "italic": false,
           "name": "BullText",
           "smoothed": true,
@@ -7223,14 +7252,14 @@
           "string": "[E] Feed me corn!",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 12,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           },
           "content": {
-            "bold": false,
+            "bold": true,
             "isOutlineEnabled": false,
             "isShadowEnabled": false,
             "italic": false,
@@ -7247,7 +7276,7 @@
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
-            "characterSize": 12,
+            "characterSize": 40,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -20399,10 +20428,23 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "c2ad3b550b8824902ab14a6a8b21c13e1c6f98e43a7ef1aa5a5ffc70da0e9166",
+<<<<<<< Updated upstream
           "name": "Chicken",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+=======
+          "name": "Animal2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Feed",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+>>>>>>> Stashed changes
           "effects": [],
           "behaviors": [
             {
@@ -21616,10 +21658,23 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "e7c8135f221f7d3c29f58768fee9793147a92aa570a64b98dee46046a0e4a67b",
+<<<<<<< Updated upstream
           "name": "Pig",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+=======
+          "name": "Animal1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Feed",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+>>>>>>> Stashed changes
           "effects": [],
           "behaviors": [
             {
@@ -23416,11 +23471,114 @@
               ]
             }
           ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "ChickenText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[E] Feed me Wheat!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[E] Feed me Wheat!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "PigText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "[E] Feed me Tomato!",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "[E] Feed me Tomato!",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+>>>>>>> Stashed changes
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Animals",
+            "children": [
+              {
+                "objectName": "Animal1"
+              },
+              {
+                "objectName": "Animal2"
+              },
+              {
+                "objectName": "Animal3"
+              }
+            ]
+          },
           {
             "folderName": "Map",
             "children": [
@@ -23543,6 +23701,7 @@
             "objectName": "WheatText"
           },
           {
+<<<<<<< Updated upstream
             "objectName": "Bull"
           },
           {
@@ -23552,6 +23711,8 @@
             "objectName": "Pig"
           },
           {
+=======
+>>>>>>> Stashed changes
             "objectName": "Bullpause"
           },
           {
@@ -23573,6 +23734,12 @@
           },
           {
             "objectName": "BullText"
+          },
+          {
+            "objectName": "ChickenText"
+          },
+          {
+            "objectName": "PigText"
           },
           {
             "objectName": "PlantText"
@@ -23737,6 +23904,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Corn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23944,7 +24112,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Corn is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -23974,7 +24141,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Bull",
+                            "Animal3",
                             "",
                             "",
                             ""
@@ -23991,6 +24158,7 @@
                         },
                         {
                           "type": {
+<<<<<<< Updated upstream
                             "value": "NumberVariable"
                           },
                           "parameters": [
@@ -24001,6 +24169,8 @@
                         },
                         {
                           "type": {
+=======
+>>>>>>> Stashed changes
                             "value": "BuiltinCommonInstructions::Once"
                           },
                           "parameters": []
@@ -24023,9 +24193,9 @@
                           "parameters": [
                             "",
                             "Thankyou",
-                            "Bull.X()",
-                            "Bull.Y()",
-                            ""
+                            "Animal3.X()",
+                            "Animal3.Y()",
+                            "\"UI layer\""
                           ]
                         },
                         {
@@ -24054,7 +24224,11 @@
                             "value": "SetBooleanObjectVariable"
                           },
                           "parameters": [
+<<<<<<< Updated upstream
                             "Bull",
+=======
+                            "Animal3",
+>>>>>>> Stashed changes
                             "Feed",
                             "True",
                             ""
@@ -24580,7 +24754,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Tomato is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -24610,7 +24783,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Bull",
+                            "Animal1",
                             "",
                             "",
                             ""
@@ -24630,28 +24803,9 @@
                             "value": "BuiltinCommonInstructions::Once"
                           },
                           "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "Inventory.Materials.Corn",
-                            ">",
-                            "0"
-                          ]
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "BullText",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Create"
@@ -24659,9 +24813,9 @@
                           "parameters": [
                             "",
                             "Thankyou",
-                            "Bull.X()",
-                            "Bull.Y()",
-                            ""
+                            "Animal1.X()",
+                            "Animal1.Y()",
+                            "\"UI layer\""
                           ]
                         },
                         {
@@ -24683,6 +24837,17 @@
                             "Inventory.Materials.Tomato",
                             "-",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Animal1",
+                            "Feed",
+                            "True",
+                            ""
                           ]
                         }
                       ]
@@ -25008,6 +25173,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "WheatSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25204,7 +25370,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Wheat is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25234,7 +25399,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Bull",
+                            "Animal2",
                             "",
                             "",
                             ""
@@ -25254,28 +25419,9 @@
                             "value": "BuiltinCommonInstructions::Once"
                           },
                           "parameters": []
-                        },
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "Inventory.Materials.Corn",
-                            ">",
-                            "0"
-                          ]
                         }
                       ],
                       "actions": [
-                        {
-                          "type": {
-                            "value": "Delete"
-                          },
-                          "parameters": [
-                            "BullText",
-                            ""
-                          ]
-                        },
                         {
                           "type": {
                             "value": "Create"
@@ -25283,9 +25429,9 @@
                           "parameters": [
                             "",
                             "Thankyou",
-                            "Bull.X()",
-                            "Bull.Y()",
-                            ""
+                            "Animal2.X()",
+                            "Animal2.Y()",
+                            "\"UI layer\""
                           ]
                         },
                         {
@@ -25294,7 +25440,7 @@
                           },
                           "parameters": [
                             "Character",
-                            "Tomato",
+                            "Wheat",
                             "-",
                             "1"
                           ]
@@ -25304,9 +25450,20 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "Inventory.Materials.Tomato",
+                            "Inventory.Materials.Wheat",
                             "-",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Animal2",
+                            "Feed",
+                            "True",
+                            ""
                           ]
                         }
                       ]
@@ -25775,7 +25932,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Create Text On Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25924,40 +26080,8 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Bull",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "BullText",
-                    "Bull.X()",
-                    "Bull.Y()",
-                    ""
-                  ]
-                }
-              ]
+              "conditions": [],
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -25969,7 +26093,7 @@
                   },
                   "parameters": [
                     "Character",
-                    "Bull",
+                    "Animal3",
                     "",
                     "",
                     ""
@@ -26998,6 +27122,7 @@
           "parameters": []
         },
         {
+<<<<<<< Updated upstream
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -27029,6 +27154,650 @@
                 "Animal_Start.X()",
                 "Animal_Start.Y()",
                 ""
+=======
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "NPC Logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "\"EnterTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Pathfinding",
+                    "",
+                    "Bullpause.X()",
+                    "Bullpause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Bullpause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Feed",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Animation",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "\"EnterTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BullText",
+                    "Animal3.X()",
+                    "Animal3.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Feed",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Pathfinding",
+                    "",
+                    "AnimalExit.X()",
+                    "AnimalExit.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Animal2",
+                    "Animal_Start.X()",
+                    "Animal_Start.Y()",
+                    "\"UI layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Scale",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "\"EnterTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Pathfinding",
+                    "",
+                    "Bullpause.X()",
+                    "Bullpause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Bullpause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Feed",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "\"EnterTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "ChickenText",
+                    "Animal2.X()",
+                    "Animal2.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Feed",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "ChickenText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal2",
+                    "Pathfinding",
+                    "",
+                    "AnimalExit.X()",
+                    "AnimalExit.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Animal1",
+                    "Animal_Start.X()",
+                    "Animal_Start.Y()",
+                    "\"UI layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Scale",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "\"EnterTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Pathfinding",
+                    "",
+                    "Bullpause.X()",
+                    "Bullpause.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Bullpause",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Feed",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveObjectTimer"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "\"EnterTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PigText",
+                    "Animal1.X()",
+                    "Animal1.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Feed",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Thankyou",
+                    "\"ExitTimer\"",
+                    "<=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "PigText",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Animal1",
+                    "Pathfinding",
+                    "",
+                    "AnimalExit.X()",
+                    "AnimalExit.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Animal3",
+                    "Animal_Start.X()",
+                    "Animal_Start.Y()",
+                    "\"UI layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Animal3",
+                    "Scale",
+                    "=",
+                    "2"
+                  ]
+                }
+>>>>>>> Stashed changes
               ]
             }
           ],
