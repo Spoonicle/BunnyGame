@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 246,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -4494,9 +4495,956 @@
         "name": "NewSprite57",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Chicken_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b93a7075185a07a5f07e6c27e68f88aa0365fc8c9da5eeef29ce0e5965cb1fb0_Chicken_Hit_1.png",
+          "name": "Chicken_Hit_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b93a7075185a07a5f07e6c27e68f88aa0365fc8c9da5eeef29ce0e5965cb1fb0_Chicken_Hit_2.png",
+          "name": "Chicken_Hit_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/a6a3cbdaf103d4e342edacbab7e062a3ace1ebb75878a78f01d1c6c21dd9ba1f_Chicken_Hit_3.png",
+          "name": "Chicken_Hit_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c99322f224913455ae2dd41fc9d34c4054e4db9f57178468938786f64718a4f6_Chicken_Hit_4.png",
+          "name": "Chicken_Hit_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/d037b46e8c71c7dc395daa35f413bc80d36ee6fcb174311dd9ad8888f1a20ed1_Chicken_Hit_5.png",
+          "name": "Chicken_Hit_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/fbab44974cb07aa4034473cecaa27c505c9f97833b0d4428b269279d29df6eac_Chicken_Idle_1.png",
+          "name": "Chicken_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_10.png",
+          "name": "Chicken_Idle_10.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_11.png",
+          "name": "Chicken_Idle_11.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/87d187426ebb6304a5d4ab914cc82996cc87316c49652e7136f84efef3a4ba1b_Chicken_Idle_12.png",
+          "name": "Chicken_Idle_12.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/2fb860e76028e7022c1e2e8e5f8f339000b114e7529a36257128c65f72a234c9_Chicken_Idle_13.png",
+          "name": "Chicken_Idle_13.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/50a018bac8fdf698f25d7f1b511efc4b6d575effe0365ef7bbe247f683fcfe21_Chicken_Idle_2.png",
+          "name": "Chicken_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/cc42e9a2ad781c8cd9990a525c6df42e08dac25881793230c1b90b86cabeee0d_Chicken_Idle_3.png",
+          "name": "Chicken_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/19b6a4fe62db5ad5dcdb52839f389cd94808811fea1822366ba5b01e5a3002ae_Chicken_Idle_4.png",
+          "name": "Chicken_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/19b6a4fe62db5ad5dcdb52839f389cd94808811fea1822366ba5b01e5a3002ae_Chicken_Idle_5.png",
+          "name": "Chicken_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/aca796a9941104b0bae01d48d7c7fa9c39afe53d5c414d4fcfba263d828f3499_Chicken_Idle_6.png",
+          "name": "Chicken_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/0ae6fd59aab872f8a5960aa2431c14c6db4674b232427dfb3b80c719a109ba82_Chicken_Idle_7.png",
+          "name": "Chicken_Idle_7.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/afae39880f23e1ecb0498e57e625ab6126734647db920fe27573bf5f85f902f6_Chicken_Idle_8.png",
+          "name": "Chicken_Idle_8.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/8c6e5d11e447d41c01f552e096b82206e5407a8794b587ca497d4c09f6f4da6b_Chicken_Idle_9.png",
+          "name": "Chicken_Idle_9.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/7166f1bc413d325230b33e135f3c728b7bec65d737a61cc7a0f4f7325a8bf7f2_Chicken_Run_1.png",
+          "name": "Chicken_Run_1.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c81e8243b5912546af2f64c3dec60db0416c4ccda83414edf973e46cbb50c730_Chicken_Run_10.png",
+          "name": "Chicken_Run_10.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/018a8f782a8db33ef5578f2372d10324393a3b74d8330f36941f71319a7dfd1c_Chicken_Run_11.png",
+          "name": "Chicken_Run_11.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/b6c05b8bd152b54cd5b496a2ba0d0c4b408cdd04d9eb9e768dfec0592cf4a4d9_Chicken_Run_12.png",
+          "name": "Chicken_Run_12.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/64e5f5ef2e3c4729fd53a7a908409a5876d498eea8ec4ec66dfb29877598649b_Chicken_Run_13.png",
+          "name": "Chicken_Run_13.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/64e5f5ef2e3c4729fd53a7a908409a5876d498eea8ec4ec66dfb29877598649b_Chicken_Run_14.png",
+          "name": "Chicken_Run_14.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/77a27b0ef74c4300c9a3cc880622119a423b97b212690d538fda492048e7350e_Chicken_Run_2.png",
+          "name": "Chicken_Run_2.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/77a27b0ef74c4300c9a3cc880622119a423b97b212690d538fda492048e7350e_Chicken_Run_3.png",
+          "name": "Chicken_Run_3.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/0df62288751119686cf42423e8a7363e3d1820af4dd5e947e1eef3f3b1a95f0a_Chicken_Run_4.png",
+          "name": "Chicken_Run_4.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/72d6aa879ba0e326dde2f27add9d04fa1c2945fba8a2603214700686a030e6c9_Chicken_Run_5.png",
+          "name": "Chicken_Run_5.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/555d0e1d17ba9492f46470abea7688edf99a6626bf16883b6440e2778597f90e_Chicken_Run_6.png",
+          "name": "Chicken_Run_6.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/555d0e1d17ba9492f46470abea7688edf99a6626bf16883b6440e2778597f90e_Chicken_Run_7.png",
+          "name": "Chicken_Run_7.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/8485bdcd6bde4ad1b02323d7a9345af7aef92293cbfeea848d493d5a4ecf6c83_Chicken_Run_8.png",
+          "name": "Chicken_Run_8.png"
+        }
+      },
+      {
+        "file": "assets/Chicken_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chicken_Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Chicken/c81e8243b5912546af2f64c3dec60db0416c4ccda83414edf973e46cbb50c730_Chicken_Run_9.png",
+          "name": "Chicken_Run_9.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 1_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/7e3da6279baa305e66e08e10c560f914ed17206ba9160cc48efb89fd99e75695_AngryPig_Hit 1_1.png",
+          "name": "AngryPig_Hit 1_1.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 1_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 1_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/7e3da6279baa305e66e08e10c560f914ed17206ba9160cc48efb89fd99e75695_AngryPig_Hit 1_2.png",
+          "name": "AngryPig_Hit 1_2.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 1_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 1_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/4b06a2e33311d798ccb57c3f8296b92f8a03ae72f8ec0978790011682f9c0428_AngryPig_Hit 1_3.png",
+          "name": "AngryPig_Hit 1_3.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 1_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 1_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/9838583a9a84c9d2650d25dcdf75cbcf929ca720fe2949d4430b7ea0a18d367d_AngryPig_Hit 1_4.png",
+          "name": "AngryPig_Hit 1_4.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 1_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 1_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/625515ddb280c929277143537730cb9458b6a6152eac98626751afc7e9afdebf_AngryPig_Hit 1_5.png",
+          "name": "AngryPig_Hit 1_5.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 2_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/7e3da6279baa305e66e08e10c560f914ed17206ba9160cc48efb89fd99e75695_AngryPig_Hit 2_1.png",
+          "name": "AngryPig_Hit 2_1.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 2_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 2_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/7e3da6279baa305e66e08e10c560f914ed17206ba9160cc48efb89fd99e75695_AngryPig_Hit 2_2.png",
+          "name": "AngryPig_Hit 2_2.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 2_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 2_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/9c8194b8c52fa098fa8c408c639cde1452f32f3e2128fa96afc980517928d5d8_AngryPig_Hit 2_3.png",
+          "name": "AngryPig_Hit 2_3.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 2_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 2_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/9eb9479ead5f4647a1f84aed37f4249cb2d5546d8806fa7fd3b6baf67118624b_AngryPig_Hit 2_4.png",
+          "name": "AngryPig_Hit 2_4.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Hit 2_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Hit 2_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/64f448e1fcead15740d2e8ef645bcee69d705f4b791101be893b6b2f31c46cb4_AngryPig_Hit 2_5.png",
+          "name": "AngryPig_Hit 2_5.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a882ae847fb4e3887cf85483d2387cd30dedd171c38bbba7baec0c4ec146ce03_AngryPig_Idle_1.png",
+          "name": "AngryPig_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/09d7be58c7f6362c71d749b1324c4f2a9d86b5c142b1d53a533d0d5ea87e1be7_AngryPig_Idle_2.png",
+          "name": "AngryPig_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/176771548996d7dce7496012b7cd2bf783cea8140c13d0d9d9c0cd0b1c2923b2_AngryPig_Idle_3.png",
+          "name": "AngryPig_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/176771548996d7dce7496012b7cd2bf783cea8140c13d0d9d9c0cd0b1c2923b2_AngryPig_Idle_4.png",
+          "name": "AngryPig_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/cae8ec10dbf05b779975ff2d3a96d2eb0dc67dbb7ee6401f6386c752a73e3409_AngryPig_Idle_5.png",
+          "name": "AngryPig_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/45a577e8b810d412590065137ee66874412cf8140f4b9fa29370c27ef903c415_AngryPig_Idle_6.png",
+          "name": "AngryPig_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/b080aa7321c874000829d65dda8d57759d8b25ef50e7345a91612705f5d8e57b_AngryPig_Idle_7.png",
+          "name": "AngryPig_Idle_7.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/b080aa7321c874000829d65dda8d57759d8b25ef50e7345a91612705f5d8e57b_AngryPig_Idle_8.png",
+          "name": "AngryPig_Idle_8.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/b080aa7321c874000829d65dda8d57759d8b25ef50e7345a91612705f5d8e57b_AngryPig_Idle_9.png",
+          "name": "AngryPig_Idle_9.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a879444ceace8af2bc28ec69a1d2242b3445d7c3335dde4608858c05eb601098_AngryPig_Run_1.png",
+          "name": "AngryPig_Run_1.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/4237024ecd983fc6f3ebf10f215dfb9eaa8337f79ef14e638240721cdc76a727_AngryPig_Run_10.png",
+          "name": "AngryPig_Run_10.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/0a75106e52052c8ef8d99cacf1fbf7e0cf8c6e3b8faa3a7e3ddc3fd514205d6a_AngryPig_Run_11.png",
+          "name": "AngryPig_Run_11.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/0a75106e52052c8ef8d99cacf1fbf7e0cf8c6e3b8faa3a7e3ddc3fd514205d6a_AngryPig_Run_12.png",
+          "name": "AngryPig_Run_12.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/688b1e6824b69ecb33b917487775647c3dd24d81cba7d144be6663636d849e8a_AngryPig_Run_2.png",
+          "name": "AngryPig_Run_2.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/688b1e6824b69ecb33b917487775647c3dd24d81cba7d144be6663636d849e8a_AngryPig_Run_3.png",
+          "name": "AngryPig_Run_3.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/39cfdddb1e31aa2c927a6784ee859ae95e65abda44117e593980caa83fb3ea19_AngryPig_Run_4.png",
+          "name": "AngryPig_Run_4.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/c18b77c6cc0bf4f1cf35e568aff8add6a93056b88c5189ab4162d3cc558a0ebe_AngryPig_Run_5.png",
+          "name": "AngryPig_Run_5.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/c18b77c6cc0bf4f1cf35e568aff8add6a93056b88c5189ab4162d3cc558a0ebe_AngryPig_Run_6.png",
+          "name": "AngryPig_Run_6.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/6aa281272b47a2582efd05abd65ebae8f006de6509f8367ebd8701b66880f916_AngryPig_Run_7.png",
+          "name": "AngryPig_Run_7.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/616a7d58e42c4c8763a980714e02c89fa3ca36ec4329354ab32e5fcf2c06341d_AngryPig_Run_8.png",
+          "name": "AngryPig_Run_8.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Run_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Run_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/616a7d58e42c4c8763a980714e02c89fa3ca36ec4329354ab32e5fcf2c06341d_AngryPig_Run_9.png",
+          "name": "AngryPig_Run_9.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a6e8225d93e0432eb77b9304a869785745e35b7ca316b140bfbd92a7bad0c90e_AngryPig_Walk_1.png",
+          "name": "AngryPig_Walk_1.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/6ed689089665d4ec88cf51b0898b83b1148b2d1da2e6aa6077893e749e5c7ada_AngryPig_Walk_10.png",
+          "name": "AngryPig_Walk_10.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/6ed689089665d4ec88cf51b0898b83b1148b2d1da2e6aa6077893e749e5c7ada_AngryPig_Walk_11.png",
+          "name": "AngryPig_Walk_11.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/6ed689089665d4ec88cf51b0898b83b1148b2d1da2e6aa6077893e749e5c7ada_AngryPig_Walk_12.png",
+          "name": "AngryPig_Walk_12.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/039bdbb495a2642848528c227d50b67d28b19c25ec57ffb1adddaa726cf20fd1_AngryPig_Walk_13.png",
+          "name": "AngryPig_Walk_13.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/41b53c4f3e30c77e6cda59923cc5908d187d4ea6aeb53d2923ae035a40163065_AngryPig_Walk_14.png",
+          "name": "AngryPig_Walk_14.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/cb2b1c205f6e747157099254359daf9a5a5c892c6d45e33150aa601fad806d64_AngryPig_Walk_15.png",
+          "name": "AngryPig_Walk_15.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/cb2b1c205f6e747157099254359daf9a5a5c892c6d45e33150aa601fad806d64_AngryPig_Walk_16.png",
+          "name": "AngryPig_Walk_16.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a752adedc7665e1611a2a23b2068267980d50fd83a169fe42f0782ef9ba4b8e5_AngryPig_Walk_2.png",
+          "name": "AngryPig_Walk_2.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a752adedc7665e1611a2a23b2068267980d50fd83a169fe42f0782ef9ba4b8e5_AngryPig_Walk_3.png",
+          "name": "AngryPig_Walk_3.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/a752adedc7665e1611a2a23b2068267980d50fd83a169fe42f0782ef9ba4b8e5_AngryPig_Walk_4.png",
+          "name": "AngryPig_Walk_4.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/98fe1498a4f0b60ad3895de7db4a35cf7932fc7d3a9bf7e7e03f5d9f6394af5a_AngryPig_Walk_5.png",
+          "name": "AngryPig_Walk_5.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/cd7154e87c25e1ecbcbe569314583de6492830659593164a938acb15bbc8e144_AngryPig_Walk_6.png",
+          "name": "AngryPig_Walk_6.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/30c8a40611bd9bdeffc26f8c204bd34f1fd41dbf079170dbd62d39b94ac69829_AngryPig_Walk_7.png",
+          "name": "AngryPig_Walk_7.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/30c8a40611bd9bdeffc26f8c204bd34f1fd41dbf079170dbd62d39b94ac69829_AngryPig_Walk_8.png",
+          "name": "AngryPig_Walk_8.png"
+        }
+      },
+      {
+        "file": "assets/AngryPig_Walk_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AngryPig_Walk_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/adf13091b172a0b10188b53006bf07daf5ae55dc3ba4896353703fe85eb5b41a_AngryPig_Walk_9.png",
+          "name": "AngryPig_Walk_9.png"
+        }
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -4526,12 +5474,14 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8278377307392721,
+        "zoomFactor": 0.7747098920451775,
         "windowMask": false,
         "selectedLayer": "UI layer"
       },
@@ -4812,23 +5762,6 @@
           "x": 804,
           "y": 389,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 103,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bull",
-          "persistentUuid": "90e49fe5-5e96-4b5e-9787-72cc805a4b5f",
-          "width": 99,
-          "x": -146,
-          "y": 500,
-          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5456,6 +6389,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Animal_Start",
+          "persistentUuid": "143997b1-6528-48d6-aae3-0f3757b60200",
+          "width": 36,
+          "x": 345,
+          "y": 523,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5918,6 +6868,11 @@
               "name": "NPCWalk",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "Feed",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -7163,7 +8118,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -7536,7 +8491,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -7909,7 +8864,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -8282,7 +9237,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -19440,6 +20395,3027 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c2ad3b550b8824902ab14a6a8b21c13e1c6f98e43a7ef1aa5a5ffc70da0e9166",
+          "name": "Chicken",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0769,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Idle_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0714,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Run_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Hit_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Hit_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Hit_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Hit_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chicken_Hit_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 1
+                          },
+                          {
+                            "x": 31,
+                            "y": 34
+                          },
+                          {
+                            "x": 2,
+                            "y": 34
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "e7c8135f221f7d3c29f58768fee9793147a92aa570a64b98dee46046a0e4a67b",
+          "name": "Pig",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 100,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 100,
+              "name": "Pathfinding",
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1111,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0625,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Walk_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.0833,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Run_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit 1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 1_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 1_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 1_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 1_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 1_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit 2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 2_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 2_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 2_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 2_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "AngryPig_Hit 2_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 3
+                          },
+                          {
+                            "x": 34,
+                            "y": 30
+                          },
+                          {
+                            "x": 1,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Animal_Start",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -19570,6 +23546,12 @@
             "objectName": "Bull"
           },
           {
+            "objectName": "Chicken"
+          },
+          {
+            "objectName": "Pig"
+          },
+          {
             "objectName": "Bullpause"
           },
           {
@@ -19624,6 +23606,9 @@
           },
           {
             "objectName": "AnimalExit"
+          },
+          {
+            "objectName": "Animal_Start"
           }
         ]
       },
@@ -19761,11 +23746,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "CornSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -20004,19 +23991,19 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        },
-                        {
-                          "type": {
                             "value": "NumberVariable"
                           },
                           "parameters": [
                             "Inventory.Materials.Corn",
-                            ">",
+                            "=",
                             "0"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
@@ -20060,6 +24047,17 @@
                             "Inventory.Materials.Corn",
                             "-",
                             "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Bull",
+                            "Feed",
+                            "True",
+                            ""
                           ]
                         }
                       ]
@@ -20375,6 +24373,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tomato",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22999,168 +26998,210 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "folded": true,
-          "name": "Bull Logic",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "\"EnterTimer\"",
-                    "<=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Pathfinding",
-                    "",
-                    "Bullpause.X()",
-                    "Bullpause.Y()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Animation",
-                    "=",
-                    "1"
-                  ]
-                }
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Animal_Start",
+                "\"SpwanTimer\"",
+                ">=",
+                "1"
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Bullpause",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Animation",
-                    "=",
-                    "4"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "RemoveObjectTimer"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "\"EnterTimer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Thankyou",
-                    "\"ExitTimer\"",
-                    "<=",
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Animation",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PathfindingBehavior::SetDestination"
-                  },
-                  "parameters": [
-                    "Bull",
-                    "Pathfinding",
-                    "",
-                    "AnimalExit.X()",
-                    "AnimalExit.Y()"
-                  ]
-                }
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "CornPlant",
+                "Animal_Start.X()",
+                "Animal_Start.Y()",
+                ""
               ]
             }
           ],
-          "parameters": []
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Bull Logic",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "\"EnterTimer\"",
+                        "<=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Pathfinding",
+                        "",
+                        "Bullpause.X()",
+                        "Bullpause.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Bullpause",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Feed",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Animation",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "\"EnterTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Thankyou",
+                        "\"ExitTimer\"",
+                        "<=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Animation",
+                        "=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PathfindingBehavior::SetDestination"
+                      },
+                      "parameters": [
+                        "Bull",
+                        "Pathfinding",
+                        "",
+                        "AnimalExit.X()",
+                        "AnimalExit.Y()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -23168,6 +27209,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -23196,6 +27238,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -23213,6 +27256,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -27100,6 +31144,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
