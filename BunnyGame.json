@@ -1,7 +1,11 @@
 {
   "firstLayout": "",
   "gdVersion": {
+<<<<<<< Updated upstream
     "build": 245,
+=======
+    "build": 246,
+>>>>>>> Stashed changes
     "major": 5,
     "minor": 5,
     "revision": 0
