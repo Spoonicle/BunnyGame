@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 248,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -5442,6 +5442,140 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/AngryPig/adf13091b172a0b10188b53006bf07daf5ae55dc3ba4896353703fe85eb5b41a_AngryPig_Walk_9.png",
           "name": "AngryPig_Walk_9.png"
         }
+      },
+      {
+        "file": "assets/One Step Closer.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2191d02b3f40793ec7bfd3e1ddec63c5fba89850450b245ef196657bb2929b0e_One Step Closer.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Fantasy/2191d02b3f40793ec7bfd3e1ddec63c5fba89850450b245ef196657bb2929b0e_One Step Closer.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_09.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a43c05393e47b588f18154ad32dd8914a4fe0e19a225f63686058cf7fe98c28e_Walk_09.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Rock/Walk/a43c05393e47b588f18154ad32dd8914a4fe0e19a225f63686058cf7fe98c28e_Walk_09.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Tall_Movement_08.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "542d1aba47f2badb773e1130d1a87eaf1dc17031cbc8ac3c2093fd128dddbef2_Tall_Movement_08.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Foley_Grass/542d1aba47f2badb773e1130d1a87eaf1dc17031cbc8ac3c2093fd128dddbef2_Tall_Movement_08.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Tall_Movement_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "166adfbd414d5734ef8f77f0f694545297f6acf8be50a178953c0c84e0163d0f_Tall_Movement_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Foley_Grass/166adfbd414d5734ef8f77f0f694545297f6acf8be50a178953c0c84e0163d0f_Tall_Movement_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_05.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "24165fad27ae3359c142eadb4ee9862077bc2023aef61af7cb8fdb320db186a2_Walk_05.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/DirtyGround/Walk/24165fad27ae3359c142eadb4ee9862077bc2023aef61af7cb8fdb320db186a2_Walk_05.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_Mono_06.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9ecd496a3ee6c661af3bbddb02b6d2b7e28a5a1431d30dd343b28f04e3119fc8_Walk_Mono_06.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Walk/9ecd496a3ee6c661af3bbddb02b6d2b7e28a5a1431d30dd343b28f04e3119fc8_Walk_Mono_06.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_Mono_10.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a862de9d6838d1d2cdf93c825689df55fea7a03fbb6beba4887a63c8b63eda1f_Walk_Mono_10.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/Grass/Walk/a862de9d6838d1d2cdf93c825689df55fea7a03fbb6beba4887a63c8b63eda1f_Walk_Mono_10.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sprout Lands - Sprites - Basic pack/Objects/Basic_Grass_Biom_things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Grass_Biom_things.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/assets_Sprout Lands - Sprites - Basic pack_Objects_Basic_Grass_Biom_things.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Grass_Biom_things",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "lofi-chill-background-music-330144.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lofi-chill-background-music-330144.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "lofi-chill-background-music-330143.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "lofi-chill-background-music-330143.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -6443,6 +6577,23 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "height": 143,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "apple_tree",
+          "persistentUuid": "ec686167-6b9c-4ed7-a016-6e06267e3918",
+          "width": 135,
+          "x": 1098,
+          "y": 276,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
           "height": 21,
           "keepRatio": true,
           "layer": "UI layer",
@@ -6460,6 +6611,23 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Tree1",
+          "persistentUuid": "b25c57ba-5fd2-42f6-9287-cdbe07696bea",
+          "width": 73,
+          "x": 1017,
+          "y": 374,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
           "height": 98,
           "keepRatio": true,
           "layer": "UI layer",
@@ -6469,6 +6637,23 @@
           "x": 1054,
           "y": 378,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 158,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Hill1",
+          "persistentUuid": "06420ce1-cd52-4992-bbb5-461ed97d317f",
+          "width": 311,
+          "x": 971,
+          "y": 560,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6503,6 +6688,23 @@
           "x": 968,
           "y": 368,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "UI layer",
+          "name": "Mushroom",
+          "persistentUuid": "3bc75118-ea5c-4f8c-b916-08fb727d8fe4",
+          "width": 30,
+          "x": 1065,
+          "y": 454,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23614,6 +23816,67 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "apple_tree",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Grass_Biom_things",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprout Lands - Sprites - Basic pack\\Objects\\Basic_Grass_Biom_things",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 0
+                          },
+                          {
+                            "x": 24,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -23663,11 +23926,32 @@
             ]
           },
           {
+            "objectName": "fence1"
+          },
+          {
+            "objectName": "fence2"
+          },
+          {
+            "objectName": "stone"
+          },
+          {
+            "objectName": "river"
+          },
+          {
+            "objectName": "box"
+          },
+          {
+            "objectName": "Tree1"
+          },
+          {
+            "objectName": "apple_tree"
+          },
+          {
+            "objectName": "Mushroom"
+          },
+          {
             "folderName": "InventoryUI",
             "children": [
-              {
-                "objectName": "Mushroom"
-              },
               {
                 "objectName": "WateringCan"
               },
@@ -23861,6 +24145,33 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "lofi-chill-background-music-330143.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -23956,11 +24267,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "CornSeed is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -25865,6 +26178,50 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Character",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "a862de9d6838d1d2cdf93c825689df55fea7a03fbb6beba4887a63c8b63eda1f_Walk_Mono_10.wav",
+                    "2",
+                    "yes",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -26983,7 +27340,7 @@
                     "Character",
                     "Animation",
                     "=",
-                    "10"
+                    "9"
                   ]
                 }
               ]
@@ -27033,7 +27390,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "Character",
@@ -27061,7 +27418,7 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "Character",
@@ -27242,6 +27599,19 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "a43c05393e47b588f18154ad32dd8914a4fe0e19a225f63686058cf7fe98c28e_Walk_09.wav",
+                    "1",
+                    "yes",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -27313,6 +27683,15 @@
                     "Animal3.X()",
                     "Animal3.Y()",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ]
                 }
               ]
@@ -27444,6 +27823,19 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "a43c05393e47b588f18154ad32dd8914a4fe0e19a225f63686058cf7fe98c28e_Walk_09.wav",
+                    "1",
+                    "yes",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -27521,6 +27913,15 @@
                     "Animal2.X()",
                     "Animal2.Y()",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ]
                 }
               ]
@@ -27661,6 +28062,19 @@
                     "=",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "a43c05393e47b588f18154ad32dd8914a4fe0e19a225f63686058cf7fe98c28e_Walk_09.wav",
+                    "1",
+                    "yes",
+                    "100",
+                    ""
+                  ]
                 }
               ]
             },
@@ -27738,6 +28152,15 @@
                     "Animal1.X()",
                     "Animal1.Y()",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ]
                 }
               ]
