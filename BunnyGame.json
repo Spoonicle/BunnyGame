@@ -6483,8 +6483,8 @@
           "name": "box",
           "persistentUuid": "f873a9e8-8d2a-4d4b-a3f4-8f096dc02738",
           "width": 75,
-          "x": 990,
-          "y": 166,
+          "x": 617,
+          "y": 530,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
@@ -23879,6 +23879,49 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mason - Vegetable Growth Logic\nWeichan - NPC Animal Logic\nShiyi - Inventory Logics and art\nCup Noobles - Pixel Art Assets",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 1,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Mason - Vegetable Growth Logic\nWeichan - NPC Animal Logic\nShiyi - Inventory Logics and art\nCup Noobles - Pixel Art Assets",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "center",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -24062,6 +24105,9 @@
           },
           {
             "objectName": "BullText"
+          },
+          {
+            "objectName": "Credits"
           },
           {
             "objectName": "ChickenText"
@@ -26347,7 +26393,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Create Text On Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26536,6 +26581,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Inventory System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28260,6 +28306,66 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "box",
+                "Character",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Credits",
+                "box.X()",
+                "box.Y()-55",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "box",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Credits",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
