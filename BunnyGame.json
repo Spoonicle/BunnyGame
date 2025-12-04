@@ -18204,7 +18204,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use PickAxe to  Plant Seed",
+          "string": "Use select a seed bag to plant it!",
           "font": "",
           "textAlignment": "center",
           "characterSize": 12,
@@ -18227,7 +18227,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use PickAxe to  Plant Seed",
+            "text": "Use select a seed bag to plant it!",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
@@ -24326,7 +24326,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -25344,7 +25343,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Axe is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25531,7 +25529,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "WateringCan is Pressed",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25645,6 +25642,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Wheat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26642,11 +26640,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -27545,7 +27538,7 @@
                     "Character",
                     "Animation",
                     "=",
-                    "14"
+                    "\"14\""
                   ]
                 }
               ]
@@ -27573,7 +27566,7 @@
                     "Character",
                     "Animation",
                     "=",
-                    "15"
+                    "\"15\""
                   ]
                 }
               ]
@@ -27698,7 +27691,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "NPC Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
