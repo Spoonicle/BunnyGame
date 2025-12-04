@@ -24311,6 +24311,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Corn",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24935,6 +24936,43 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "CornPlant",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "CornPlant.X()",
+                    "CornPlant.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -24944,6 +24982,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tomato",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25262,6 +25301,43 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "tomatoPlant",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "tomatoPlant.X()",
+                    "tomatoPlant.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ]
             },
             {
               "colorB": 228,
@@ -26183,6 +26259,43 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "WheatPlant",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "WheatPlant.X()",
+                    "WheatPlant.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Plot",
+                    "State",
+                    "=",
+                    "\"Grown\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -26192,6 +26305,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "CharacterMovement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26388,6 +26502,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Create Text On Screen",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26494,15 +26609,6 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "WheatPlant",
-                    "Animation"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -26576,6 +26682,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Inventory System",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26808,6 +26915,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": " Pick up tools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26979,6 +27087,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tool Selection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27324,6 +27433,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tool Animations",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27588,6 +27698,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "NPC Logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28545,64 +28656,76 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Credits",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "box",
-                "Character",
-                "",
-                "",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Character",
+                    "box",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Credits",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "box",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Credits",
+                    "box.X()",
+                    "box.Y()-55",
+                    "\"Credits\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Credits",
-                "box.X()",
-                "box.Y()-55",
-                "\"Credits\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Character",
-                "box",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Credits",
-                ""
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
